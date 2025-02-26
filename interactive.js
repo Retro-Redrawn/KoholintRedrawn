@@ -274,13 +274,13 @@ function toggleMapStyle () {
     var selectOriginal = document.getElementById('mapSelectOriginal');
     var lastMapStyle = currentMapStyle;
 
-    if (selectRedrawn.checked) 
-    {
-        currentMapStyle = NEW_STYLE_NAME;
-    }
-    if (selectOriginal.checked) 
+    if (currentMapStyle == NEW_STYLE_NAME) 
     {
         currentMapStyle = OLD_STYLE_NAME;
+    }
+    else
+    {
+        currentMapStyle = NEW_STYLE_NAME;
     }
 
     // Build map if changed
@@ -291,6 +291,7 @@ function toggleMapStyle () {
 
     updateActiveAreaZone()
 }
+
 
 //** Fetches the current active layer's area images based on the current style */
 function getActiveLayerAreaImages(styleOverride = "") {
