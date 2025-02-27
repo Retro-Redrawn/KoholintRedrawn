@@ -3,7 +3,7 @@ html, body {
     padding:0;
     overflow:hidden;
     background-color:#000;
-    font-family: 'RocknRoll One', sans-serif;
+    font-family: 'Philosopher', sans-serif;
 	font-size: .9em;
 }
 a{
@@ -224,9 +224,7 @@ a{
     border-top-right-radius: 5px;
     text-shadow: 1px 0px 3px black, -1px 0px 3px black, 0px 0px 3px black, 0px 0px 3px black, 0px 0px 3px black; 
 }
-#layers li button.castlevania{
-    background-image: url('img/website/sevii_button.png');
-}
+
 #layers li button:hover{
     width:95%;
 }
