@@ -144,40 +144,16 @@ var castleAreas = [
     post_url: ""
   },
   {
-    order: 7,
-    title: "1-7A",
-    ident: "1-7A",
-    artist: "maruki",
+    order: 6,
+    title: "1-7",
+    ident: "1-7",
+    artist: "Arkflinn",
     artistImageOverride: "",
-    url: "https://twitter.com/MarukiHurakami",
+    url: "https://linktr.ee/Arkflinn",
     animation: false,
     point: {
-      x: 2336,
+      x: 1968,
       y: 1712
-    },
-    offset: {
-      x: null,
-      y: null,
-      width: null,
-      height: null
-    },
-    pan: "horizontal",
-    type: "castle",
-    zoom: 2,
-    teleporters: [],
-    post_url: ""
-  },
-  {
-    order: 8,
-    title: "1-7B",
-    ident: "1-7B",
-    artist: "Crowno",
-    artistImageOverride: "",
-    url: "https://twitter.com/CrownoO",
-    animation: false,
-    point: {
-      x: 2336,
-      y: 1904
     },
     offset: {
       x: null,
@@ -211,30 +187,6 @@ var castleAreas = [
     },
     pan: "horizontal",
     type: "castle",
-    zoom: 2,
-    teleporters: [],
-    post_url: ""
-  },
-  {
-    order: 10,
-    title: "1-9",
-    ident: "1-9",
-    artist: "Ghoulee",
-    artistImageOverride: "",
-    url: "https://twitter.com/ghouleebones",
-    animation: false,
-    point: {
-      x: 3360,
-      y: 1712
-    },
-    offset: {
-      x: null,
-      y: null,
-      width: null,
-      height: null
-    },
-    pan: "horizontal",
-    type: "boss",
     zoom: 2,
     teleporters: [],
     post_url: ""
@@ -337,8 +289,32 @@ var castleAreas = [
   },
   {
     order: 15,
-    title: "2-5 & 2-6",
-    ident: "2-5_2-6",
+    title: "2-5",
+    ident: "2-5",
+    artist: "MobyPixel",
+    artistImageOverride: "",
+    url: "https://twitter.com/MobyPixel",
+    animation: false,
+    point: {
+      x: 2592,
+      y: 1264
+    },
+    offset: {
+      x: null,
+      y: null,
+      width: null,
+      height: null
+    },
+    pan: "horizontal",
+    type: "castle",
+    zoom: 2,
+    teleporters: [],
+    post_url: ""
+  },
+  {
+    order: 15,
+    title: "2-6",
+    ident: "2-6",
     artist: "MobyPixel",
     artistImageOverride: "",
     url: "https://twitter.com/MobyPixel",
@@ -403,54 +379,6 @@ var castleAreas = [
     },
     pan: "horizontal",
     type: "castle",
-    zoom: 2,
-    teleporters: [],
-    post_url: ""
-  },
-  {
-    order: 18,
-    title: "2-9",
-    ident: "2-9",
-    artist: "Donpo",
-    artistImageOverride: "",
-    url: "https://twitter.com/DonpoPixels",
-    animation: false,
-    point: {
-      x: 2080,
-      y: 1072
-    },
-    offset: {
-      x: null,
-      y: null,
-      width: null,
-      height: null
-    },
-    pan: "horizontal",
-    type: "castle",
-    zoom: 2,
-    teleporters: [],
-    post_url: ""
-  },
-  {
-    order: 19,
-    title: "2-10",
-    ident: "2-10",
-    artist: "Donpo",
-    artistImageOverride: "",
-    url: "https://twitter.com/DonpoPixels",
-    animation: false,
-    point: {
-      x: 1824,
-      y: 1072
-    },
-    offset: {
-      x: null,
-      y: null,
-      width: null,
-      height: null
-    },
-    pan: "horizontal",
-    type: "boss",
     zoom: 2,
     teleporters: [],
     post_url: ""
@@ -648,222 +576,6 @@ var castleAreas = [
     post_url: ""
   },
   {
-    order: 28,
-    title: "3-9",
-    ident: "3-9",
-    artist: "Ashton: Retrocade Media",
-    artistImageOverride: "AshtonArnold",
-    url: "https://retrocademedia.itch.io/",
-    animation: false,
-    point: {
-      x: 3104,
-      y: 672
-    },
-    offset: {
-      x: null,
-      y: null,
-      width: null,
-      height: null
-    },
-    pan: "horizontal",
-    type: "terrace",
-    zoom: 2,
-    teleporters: [],
-    post_url: ""
-  },
-  {
-    order: 29,
-    title: "3-10",
-    ident: "3-10",
-    artist: "Foofarawr",
-    artistImageOverride: "",
-    url: "https://linktr.ee/foofarawr",
-    animation: false,
-    point: {
-      x: 3488,
-      y: 672
-    },
-    offset: {
-      x: null,
-      y: null,
-      width: null,
-      height: null
-    },
-    pan: "horizontal",
-    type: "terrace",
-    zoom: 2,
-    teleporters: [],
-    post_url: ""
-  },
-  {
-    order: 30,
-    title: "3-11",
-    ident: "3-11",
-    artist: "nasCobolo",
-    artistImageOverride: "",
-    url: "https://twitter.com/ratariasart",
-    animation: true,
-    point: {
-      x: 3872,
-      y: 672
-    },
-    offset: {
-      x: null,
-      y: null,
-      width: null,
-      height: null
-    },
-    pan: "horizontal",
-    type: "terrace",
-    zoom: 2,
-    teleporters: [],
-    post_url: ""
-  },
-  {
-    order: 31,
-    title: "3-12",
-    ident: "3-12",
-    artist: "Rudy Flores",
-    artistImageOverride: "RudyFlores",
-    url: "https://twitter.com/Rudyf93",
-    animation: false,
-    point: {
-      x: 4384,
-      y: 672
-    },
-    offset: {
-      x: null,
-      y: null,
-      width: null,
-      height: null
-    },
-    pan: "horizontal",
-    type: "boss",
-    zoom: 2,
-    teleporters: [],
-    post_url: ""
-  },
-  {
-    order: 32,
-    title: "P-1",
-    ident: "P-1",
-    artist: "Lombre",
-    artistImageOverride: "",
-    url: "https://twitter.com/ElHombreLombre",
-    animation: false,
-    point: {
-      x: 4384,
-      y: 864
-    },
-    offset: {
-      x: null,
-      y: null,
-      width: null,
-      height: null
-    },
-    pan: "horizontal",
-    type: "underground",
-    zoom: 2,
-    teleporters: [],
-    post_url: ""
-  },
-  {
-    order: 33,
-    title: "P-2",
-    ident: "P-2",
-    artist: "nasCobolo",
-    artistImageOverride: "",
-    url: "https://twitter.com/ratariasart",
-    animation: false,
-    point: {
-      x: 4384,
-      y: 1040
-    },
-    offset: {
-      x: null,
-      y: null,
-      width: null,
-      height: null
-    },
-    pan: "horizontal",
-    type: "underground",
-    zoom: 2,
-    teleporters: [],
-    post_url: ""
-  },
-  {
-    order: 34,
-    title: "P-3",
-    ident: "P-3",
-    artist: "Jaquiox",
-    artistImageOverride: "",
-    url: "https://www.instagram.com/jaquiox/",
-    animation: false,
-    point: {
-      x: 4384,
-      y: 1216
-    },
-    offset: {
-      x: null,
-      y: null,
-      width: null,
-      height: null
-    },
-    pan: "horizontal",
-    type: "underground",
-    zoom: 2,
-    teleporters: [],
-    post_url: ""
-  },
-  {
-    order: 35,
-    title: "P-4",
-    ident: "P-4",
-    artist: "Normal Neighbor",
-    artistImageOverride: "NormalNeighbor",
-    url: "https://twitter.com/PixelNeighbor",
-    animation: false,
-    point: {
-      x: 4384,
-      y: 1392
-    },
-    offset: {
-      x: null,
-      y: null,
-      width: null,
-      height: null
-    },
-    pan: "horizontal",
-    type: "underground",
-    zoom: 2,
-    teleporters: [],
-    post_url: ""
-  },
-  {
-    order: 36,
-    title: "P-5",
-    ident: "P-5",
-    artist: "Chubbo",
-    artistImageOverride: "",
-    url: "https://www.instagram.com/chubbopx/",
-    animation: false,
-    point: {
-      x: 4384,
-      y: 1568
-    },
-    offset: {
-      x: null,
-      y: null,
-      width: null,
-      height: null
-    },
-    pan: "horizontal",
-    type: "underground",
-    zoom: 2,
-    teleporters: [],
-    post_url: ""
-  },
-  {
     order: 37,
     title: "4-1",
     ident: "4-1",
@@ -960,30 +672,6 @@ var castleAreas = [
     post_url: ""
   },
   {
-    order: 41,
-    title: "4-X",
-    ident: "4-X",
-    artist: "anima_nel",
-    artistImageOverride: "",
-    url: "https://twitter.com/Aminapixels",
-    animation: false,
-    point: {
-      x: 5856,
-      y: 1184
-    },
-    offset: {
-      x: null,
-      y: null,
-      width: null,
-      height: null
-    },
-    pan: "vertical",
-    type: "other",
-    zoom: 1,
-    teleporters: [],
-    post_url: ""
-  },
-  {
     order: 42,
     title: "4-5",
     ident: "4-5",
@@ -1075,54 +763,6 @@ var castleAreas = [
     },
     pan: "horizontal",
     type: "terrace",
-    zoom: 2,
-    teleporters: [],
-    post_url: ""
-  },
-  {
-    order: 46,
-    title: "4-9",
-    ident: "4-9",
-    artist: "Xanday",
-    artistImageOverride: "",
-    url: "http://www.xanday.com",
-    animation: false,
-    point: {
-      x: 7392,
-      y: 1008
-    },
-    offset: {
-      x: null,
-      y: null,
-      width: null,
-      height: null
-    },
-    pan: "horizontal",
-    type: "castle",
-    zoom: 2,
-    teleporters: [],
-    post_url: ""
-  },
-  {
-    order: 47,
-    title: "4-10",
-    ident: "4-10",
-    artist: "Batfeula",
-    artistImageOverride: "",
-    url: "https://twitter.com/batfeula",
-    animation: false,
-    point: {
-      x: 8160,
-      y: 1008
-    },
-    offset: {
-      x: null,
-      y: null,
-      width: null,
-      height: null
-    },
-    pan: "horizontal",
-    type: "boss",
     zoom: 2,
     teleporters: [],
     post_url: ""
@@ -1320,102 +960,6 @@ var castleAreas = [
     post_url: ""
   },
   {
-    order: 56,
-    title: "5-9",
-    ident: "5-9",
-    artist: "Looloopaa",
-    artistImageOverride: "",
-    url: "https://twitter.com/looloopaa",
-    animation: false,
-    point: {
-      x: 8160,
-      y: 624
-    },
-    offset: {
-      x: null,
-      y: null,
-      width: null,
-      height: null
-    },
-    pan: "horizontal",
-    type: "castle",
-    zoom: 2,
-    teleporters: [],
-    post_url: ""
-  },
-  {
-    order: 57,
-    title: "5-10",
-    ident: "5-10",
-    artist: "DaNinjaManZ",
-    artistImageOverride: "",
-    url: "https://twitter.com/DaNinjaManZ",
-    animation: true,
-    point: {
-      x: 8288,
-      y: 432
-    },
-    offset: {
-      x: null,
-      y: null,
-      width: null,
-      height: null
-    },
-    pan: "horizontal",
-    type: "castle",
-    zoom: 2,
-    teleporters: [],
-    post_url: ""
-  },
-  {
-    order: 58,
-    title: "5-11",
-    ident: "5-11",
-    artist: "Steven",
-    artistImageOverride: "",
-    url: "https://stevenart1988.wordpress.com/",
-    animation: false,
-    point: {
-      x: 7904,
-      y: 432
-    },
-    offset: {
-      x: null,
-      y: null,
-      width: null,
-      height: null
-    },
-    pan: "horizontal",
-    type: "castle",
-    zoom: 2,
-    teleporters: [],
-    post_url: ""
-  },
-  {
-    order: 59,
-    title: "5-12",
-    ident: "5-12",
-    artist: "StrawBe",
-    artistImageOverride: "",
-    url: "https://twitter.com/StrawPact",
-    animation: true,
-    point: {
-      x: 7648,
-      y: 432
-    },
-    offset: {
-      x: null,
-      y: null,
-      width: null,
-      height: null
-    },
-    pan: "horizontal",
-    type: "boss",
-    zoom: 2,
-    teleporters: [],
-    post_url: ""
-  },
-  {
     order: 60,
     title: "6-1",
     ident: "6-1",
@@ -1585,8 +1129,8 @@ var castleAreas = [
   },
   {
     order: 67,
-    title: "6-8 & 6-9",
-    ident: "6-8_6-9",
+    title: "6-8",
+    ident: "6-8",
     artist: "MetaruPX",
     artistImageOverride: "",
     url: "https://twitter.com/MetaruPX",
@@ -1594,30 +1138,6 @@ var castleAreas = [
     point: {
       x: 5344,
       y: 432
-    },
-    offset: {
-      x: null,
-      y: null,
-      width: null,
-      height: null
-    },
-    pan: "horizontal",
-    type: "castle",
-    zoom: 2,
-    teleporters: [],
-    post_url: ""
-  },
-  {
-    order: 68,
-    title: "6-10",
-    ident: "6-10",
-    artist: "Steven",
-    artistImageOverride: "",
-    url: "https://stevenart1988.wordpress.com/",
-    animation: false,
-    point: {
-      x: 5344,
-      y: 240
     },
     offset: {
       x: null,
@@ -1710,6 +1230,294 @@ var castleAreas = [
     artist: "Zernek",
     artistImageOverride: "",
     url: "https://twitter.com/Zernek1",
+    animation: false,
+    point: {
+      x: 4576,
+      y: 48
+    },
+    offset: {
+      x: null,
+      y: null,
+      width: null,
+      height: null
+    },
+    pan: "horizontal",
+    type: "boss",
+    zoom: 2,
+    teleporters: [],
+    post_url: ""
+  },
+  {
+    order: 73,
+    title: "7-5",
+    ident: "7-5",
+    artist: "Zernek",
+    artistImageOverride: "",
+    url: "https://twitter.com/Zernek1",
+    animation: false,
+    point: {
+      x: 4576,
+      y: 48
+    },
+    offset: {
+      x: null,
+      y: null,
+      width: null,
+      height: null
+    },
+    pan: "horizontal",
+    type: "boss",
+    zoom: 2,
+    teleporters: [],
+    post_url: ""
+  },
+  {
+    order: 74,
+    title: "7-6",
+    ident: "7-6",
+    artist: "Zernek",
+    artistImageOverride: "",
+    url: "https://twitter.com/Zernek1",
+    animation: false,
+    point: {
+      x: 4576,
+      y: 48
+    },
+    offset: {
+      x: null,
+      y: null,
+      width: null,
+      height: null
+    },
+    pan: "horizontal",
+    type: "boss",
+    zoom: 2,
+    teleporters: [],
+    post_url: ""
+  },
+  {
+    order: 75,
+    title: "7-7",
+    ident: "7-7",
+    artist: "Zernek",
+    artistImageOverride: "",
+    url: "https://twitter.com/Zernek1",
+    animation: false,
+    point: {
+      x: 4576,
+      y: 48
+    },
+    offset: {
+      x: null,
+      y: null,
+      width: null,
+      height: null
+    },
+    pan: "horizontal",
+    type: "boss",
+    zoom: 2,
+    teleporters: [],
+    post_url: ""
+  },
+  {
+    order: 76,
+    title: "7-8",
+    ident: "7-8",
+    artist: "Zernek",
+    artistImageOverride: "",
+    url: "https://twitter.com/Zernek1",
+    animation: false,
+    point: {
+      x: 4576,
+      y: 48
+    },
+    offset: {
+      x: null,
+      y: null,
+      width: null,
+      height: null
+    },
+    pan: "horizontal",
+    type: "boss",
+    zoom: 2,
+    teleporters: [],
+    post_url: ""
+  },
+  {
+    order: 76,
+    title: "8-1",
+    ident: "8-1",
+    artist: "Zernek",
+    artistImageOverride: "",
+    url: "https://twitter.com/Zernek1",
+    animation: false,
+    point: {
+      x: 4576,
+      y: 48
+    },
+    offset: {
+      x: null,
+      y: null,
+      width: null,
+      height: null
+    },
+    pan: "horizontal",
+    type: "boss",
+    zoom: 2,
+    teleporters: [],
+    post_url: ""
+  },
+  {
+    order: 76,
+    title: "8-2",
+    ident: "8-2",
+    artist: "Zernek",
+    artistImageOverride: "",
+    url: "",
+    animation: false,
+    point: {
+      x: 4576,
+      y: 48
+    },
+    offset: {
+      x: null,
+      y: null,
+      width: null,
+      height: null
+    },
+    pan: "horizontal",
+    type: "boss",
+    zoom: 2,
+    teleporters: [],
+    post_url: ""
+  },
+  {
+    order: 76,
+    title: "8-3",
+    ident: "8-3",
+    artist: "Zernek",
+    artistImageOverride: "",
+    url: "",
+    animation: false,
+    point: {
+      x: 4576,
+      y: 48
+    },
+    offset: {
+      x: null,
+      y: null,
+      width: null,
+      height: null
+    },
+    pan: "horizontal",
+    type: "boss",
+    zoom: 2,
+    teleporters: [],
+    post_url: ""
+  },
+  {
+    order: 76,
+    title: "8-4",
+    ident: "8-4",
+    artist: "Zernek",
+    artistImageOverride: "",
+    url: "",
+    animation: false,
+    point: {
+      x: 4576,
+      y: 48
+    },
+    offset: {
+      x: null,
+      y: null,
+      width: null,
+      height: null
+    },
+    pan: "horizontal",
+    type: "boss",
+    zoom: 2,
+    teleporters: [],
+    post_url: ""
+  },
+  {
+    order: 76,
+    title: "8-5",
+    ident: "8-5",
+    artist: "Zernek",
+    artistImageOverride: "",
+    url: "",
+    animation: false,
+    point: {
+      x: 4576,
+      y: 48
+    },
+    offset: {
+      x: null,
+      y: null,
+      width: null,
+      height: null
+    },
+    pan: "horizontal",
+    type: "boss",
+    zoom: 2,
+    teleporters: [],
+    post_url: ""
+  },
+  {
+    order: 76,
+    title: "8-6",
+    ident: "8-6",
+    artist: "Zernek",
+    artistImageOverride: "",
+    url: "",
+    animation: false,
+    point: {
+      x: 4576,
+      y: 48
+    },
+    offset: {
+      x: null,
+      y: null,
+      width: null,
+      height: null
+    },
+    pan: "horizontal",
+    type: "boss",
+    zoom: 2,
+    teleporters: [],
+    post_url: ""
+  },
+  {
+    order: 76,
+    title: "8-7",
+    ident: "8-7",
+    artist: "Zernek",
+    artistImageOverride: "",
+    url: "",
+    animation: false,
+    point: {
+      x: 4576,
+      y: 48
+    },
+    offset: {
+      x: null,
+      y: null,
+      width: null,
+      height: null
+    },
+    pan: "horizontal",
+    type: "boss",
+    zoom: 2,
+    teleporters: [],
+    post_url: ""
+  },
+  {
+    order: 76,
+    title: "8-8",
+    ident: "8-8",
+    artist: "Zernek",
+    artistImageOverride: "",
+    url: "",
     animation: false,
     point: {
       x: 4576,
