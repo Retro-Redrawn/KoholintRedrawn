@@ -274,13 +274,13 @@ function toggleMapStyle () {
     var selectOriginal = document.getElementById('mapSelectOriginal');
     var lastMapStyle = currentMapStyle;
 
-    if (currentMapStyle == NEW_STYLE_NAME) 
-    {
-        currentMapStyle = OLD_STYLE_NAME;
-    }
-    else
+    if (selectRedrawn.checked) 
     {
         currentMapStyle = NEW_STYLE_NAME;
+    }
+    if (selectOriginal.checked) 
+    {
+        currentMapStyle = OLD_STYLE_NAME;
     }
 
     // Build map if changed
@@ -291,7 +291,6 @@ function toggleMapStyle () {
 
     updateActiveAreaZone()
 }
-
 
 //** Fetches the current active layer's area images based on the current style */
 function getActiveLayerAreaImages(styleOverride = "") {
@@ -361,7 +360,8 @@ function setUpAreas () {
         }
         
         // Prepare the HTML block corresponding to an area and its associated credts
-        var html = `<li class="area" title="${area.title}" style="background-color:${backgroundColor}" onclick="focusOnArea('${area.title}')">
+        var html = 
+        `<li class="area" title="${area.title}" style="background-color:${backgroundColor}" onclick="focusOnArea('${area.title}')">
             <div class="area__header" >
                 <span class="material-icons">
                     ${materialIcon}
@@ -374,10 +374,9 @@ function setUpAreas () {
                 <div class="area__info__inner">
                     <div class="area__info__img">
                         ${artistImageHTML}
-                        
                     </div>
                     <div class="area__info__name">
-                        <a href="${area.url}" target="_blank" title="${area.artist}">${area.artist}</a>
+                        ${area.url ? `<a href="${area.url}" target="_blank" title="${area.artist}">${area.artist}</a>` : `<a>${area.artist}</a>`}
                         ${area.post_url ? `<a href="${area.post_url}" target="_blank" title="View Post">[View Post]</a>` : ''}
                     </div>
                 </div>
@@ -471,6 +470,7 @@ function tick () {
     viewport.filters = []
     if (cameraAnimation.progress >= 1) {
         cameraAnimation.playing = false
+        cameraAdjustment.progress = 1;
     }
     if (!cameraAnimation.playing) {
         if (zoomLevel !== currentZoom) {
@@ -478,10 +478,10 @@ function tick () {
                 viewport.filters = [blurFilter]
             }
             currentZoom = lerp(currentZoom, zoomLevel, 0.2)
-            if (Math.abs(zoomLevel - currentZoom) < 0.005) { 
+            if (Math.abs(zoomLevel - currentZoom) < 0.005) { // Floating point rounding
                 currentZoom = zoomLevel
-                map.x = currentPos.x = zoomCenter.x; map.y = currentPos.y = zoomCenter.y;
-                
+                map.x = currentPos.x = zoomCenter.x; 
+                map.y = currentPos.y = zoomCenter.y;
             }
             map.scale.set(currentZoom)
 
@@ -520,6 +520,7 @@ function tick () {
             pinchForTick = null
         }
         checkMapBoundaries()
+
     } else {
 
         // Calculate position and scale changes relative to a camera animation adjustment
@@ -532,6 +533,7 @@ function tick () {
         map.x = newPosX
         map.y = newPosY
     }
+
     if (tourMode) {
         if ((!cameraAnimation.playing || cameraAnimation.progress > (1 - (cameraAnimation.speed * 100))) && !tourTransition) {
             tourTransition = true
@@ -632,6 +634,7 @@ function onClick (e) {
     }
 }
 
+/** Callback occurring when a drag move occurs */
 function onDragMove (e) {
     if (mouseDown && !cameraAnimation.playing) {
         if (e.data.originalEvent.type === 'touchmove' && e.data.originalEvent.touches && e.data.originalEvent.touches.length === 2) {
@@ -644,15 +647,15 @@ function onDragMove (e) {
             if (previousPinchDistance) {
                 var diff = Math.abs(currentPinchDistance - previousPinchDistance)
                 if (diff > 1) {
-                    if (currentPinchDistance > previousPinchDistance) {
+                    // Set x and y positions relative to pinch middle
+                    if (currentPinchDistance > previousPinchDistance) { // Zoom / Pinch outwards
                         pinchForTick = {
                             factor: 1.06,
                             x: touches[0].pageX - (pinchX / 2),
                             y: touches[0].pageY - (pinchY / 2),
                         }
                     }
-                    if (currentPinchDistance < previousPinchDistance) {
-                        // instantZoom(,touches[0].pageX, touches[0].pageY)
+                    if (currentPinchDistance < previousPinchDistance) { // Zoom / Pinch inwards
                         pinchForTick = {
                             factor: .94,
                             x: touches[0].pageX - (pinchX / 2),
@@ -681,7 +684,7 @@ function onDragMove (e) {
         dragVelocity = { x: velocityX, y: velocityY }
         map.x += dragVelocity.x
         map.y += dragVelocity.y
-        zoomCenter = { x:map.x, y: map.y }
+        zoomCenter = { x: map.x, y: map.y }
         currentPos = zoomCenter
         
         checkMapBoundaries()
@@ -738,19 +741,25 @@ function zoom(s,x,y){
 function instantZoom(s,x,y){
 
     // Perform the requested zoom
+
+    var lastZoomLevel = zoomLevel;
     zoom(s,x,y);
 
-    // Immediately lock in the target zoom values
-    map.scale.set(zoomLevel)
-    currentZoom = zoomLevel
-    currentPos = {... zoomCenter}
+    // Don't bother continuing the operation if the zoom level didn't change
+    if (lastZoomLevel != zoomLevel) 
+    {
+        // Immediately lock in the target zoom values
+        map.scale.set(zoomLevel)
+        currentZoom = zoomLevel
+        currentPos = {... zoomCenter}
 
-    // console.log(zoomCenter)
+        // console.log(zoomCenter)
 
-    map.x = zoomCenter.x
-    map.y = zoomCenter.y
+        map.x = zoomCenter.x
+        map.y = zoomCenter.y
 
-    checkMapBoundaries()
+        checkMapBoundaries()
+    }
 }
 
 function moveCameraTo (x, y, zoom, camAnimationSpeed, useEasing) {
