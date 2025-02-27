@@ -274,14 +274,15 @@ function toggleMapStyle () {
     var selectOriginal = document.getElementById('mapSelectOriginal');
     var lastMapStyle = currentMapStyle;
 
-    if (selectRedrawn.checked) 
-    {
-        currentMapStyle = NEW_STYLE_NAME;
-    }
-    if (selectOriginal.checked) 
-    {
-        currentMapStyle = OLD_STYLE_NAME;
-    }
+
+    if (currentMapStyle == NEW_STYLE_NAME) 
+        {
+            currentMapStyle = OLD_STYLE_NAME;
+        }
+    else
+        {
+            currentMapStyle = NEW_STYLE_NAME;
+        }
 
     // Build map if changed
     if (!(lastMapStyle === currentMapStyle)) 

@@ -1,15 +1,16 @@
 var castleAreas = [
+
   {
     order: 1,
     title: "1-1",
     ident: "1-1",
-    artist: "Arvy",
+    artist: "Wilperi",
     artistImageOverride: "",
-    url: "https://twitter.com/arvydas_b",
+    url: "https://linktr.ee/wilperi",
     animation: false,
     point: {
-      x: 32,
-      y: 1712
+      x: 50,
+      y: 300
     },
     offset: {
       x: null,
@@ -27,13 +28,13 @@ var castleAreas = [
     order: 2,
     title: "1-2",
     ident: "1-2",
-    artist: "Juanito",
+    artist: "Foo",
     artistImageOverride: "",
-    url: "https://twitter.com/juanitomedinart",
+    url: "https://linktr.ee/foofarawr",
     animation: false,
     point: {
-      x: 416,
-      y: 1712
+      x: 370,
+      y: 300
     },
     offset: {
       x: null,
@@ -51,13 +52,13 @@ var castleAreas = [
     order: 3,
     title: "1-3",
     ident: "1-3",
-    artist: "Stefan",
+    artist: "Juanito",
     artistImageOverride: "",
-    url: "https://twitter.com/MercuryBD",
+    url: "https://twitter.com/juanitomedinart",
     animation: true,
     point: {
-      x: 800,
-      y: 1712
+      x: 530,
+      y: 300
     },
     offset: {
       x: null,
@@ -75,13 +76,13 @@ var castleAreas = [
     order: 4,
     title: "1-4",
     ident: "1-4",
-    artist: "Scooter",
+    artist: "WukongJr",
     artistImageOverride: "",
-    url: "http://twitter.com/lorenradis",
+    url: "https://twitter.com/WuKongJr_Art",
     animation: false,
     point: {
-      x: 1200,
-      y: 1712
+      x: 1010,
+      y: 300
     },
     offset: {
       x: null,
@@ -99,13 +100,13 @@ var castleAreas = [
     order: 5,
     title: "1-5",
     ident: "1-5",
-    artist: "Arkflinn",
+    artist: "Brando",
     artistImageOverride: "",
-    url: "https://linktr.ee/Arkflinn",
+    url: "https://linktr.ee/brandoparm",
     animation: false,
     point: {
-      x: 1584,
-      y: 1712
+      x: 1170,
+      y: 300
     },
     offset: {
       x: null,
@@ -123,13 +124,13 @@ var castleAreas = [
     order: 6,
     title: "1-6",
     ident: "1-6",
-    artist: "Arkflinn",
+    artist: "Brando",
     artistImageOverride: "",
-    url: "https://linktr.ee/Arkflinn",
+    url: "https://linktr.ee/brandoparm",
     animation: false,
     point: {
-      x: 1968,
-      y: 1712
+      x: 1330,
+      y: 300
     },
     offset: {
       x: null,
@@ -147,13 +148,13 @@ var castleAreas = [
     order: 6,
     title: "1-7",
     ident: "1-7",
-    artist: "Arkflinn",
+    artist: "Darth_Scorpion",
     artistImageOverride: "",
-    url: "https://linktr.ee/Arkflinn",
+    url: "https://darkscorpion19.carrd.co/",
     animation: false,
     point: {
-      x: 1968,
-      y: 1712
+      x: 1650,
+      y: 300
     },
     offset: {
       x: null,
@@ -171,13 +172,37 @@ var castleAreas = [
     order: 9,
     title: "1-8",
     ident: "1-8",
-    artist: "HaywireJo",
+    artist: "Blindeduif",
     artistImageOverride: "",
-    url: "https://twitter.com/HaywireJo",
+    url: "https://linktr.ee/blindeduif",
     animation: false,
     point: {
-      x: 2848,
-      y: 1712
+      x: 1970,
+      y: 300
+    },
+    offset: {
+      x: null,
+      y: null,
+      width: null,
+      height: null
+    },
+    pan: "horizontal",
+    type: "castle",
+    zoom: 2,
+    teleporters: [],
+    post_url: ""
+  },
+  {
+    order: 10,
+    title: "1-9",
+    ident: "1-9",
+    artist: "BassproShopspyramids",
+    artistImageOverride: "",
+    url: "",
+    animation: false,
+    point: {
+      x: 2290,
+      y: 300
     },
     offset: {
       x: null,
@@ -195,13 +220,13 @@ var castleAreas = [
     order: 11,
     title: "2-1",
     ident: "2-1",
-    artist: "Arkflinn",
+    artist: "Don",
     artistImageOverride: "",
-    url: "https://linktr.ee/Arkflinn",
+    url: "",
     animation: false,
     point: {
-      x: 3616,
-      y: 1648
+      x: 50,
+      y: 556
     },
     offset: {
       x: null,
@@ -219,13 +244,13 @@ var castleAreas = [
     order: 12,
     title: "2-2",
     ident: "2-2",
-    artist: "Blindeduif",
+    artist: "Pikethorn",
     artistImageOverride: "",
-    url: "https://linktr.ee/blindeduif",
+    url: "https://www.pikethorne.net/",
     animation: false,
     point: {
-      x: 3360,
-      y: 1456
+      x: 370,
+      y: 556
     },
     offset: {
       x: null,
@@ -243,13 +268,13 @@ var castleAreas = [
     order: 13,
     title: "2-3",
     ident: "2-3",
-    artist: "PixelEric",
+    artist: "Lyzerus",
     artistImageOverride: "",
-    url: "https://pixeleric.carrd.co/",
+    url: "",
     animation: false,
     point: {
-      x: 2976,
-      y: 1456
+      x: 690,
+      y: 556
     },
     offset: {
       x: null,
@@ -267,13 +292,13 @@ var castleAreas = [
     order: 14,
     title: "2-4",
     ident: "2-4",
-    artist: "DioShiba",
+    artist: "Marina",
     artistImageOverride: "",
-    url: "https://andreworlukartanimations.wordpress.com/",
+    url: "https://cringe.ovh/",
     animation: false,
     point: {
-      x: 2592,
-      y: 1456
+      x: 1010,
+      y: 556
     },
     offset: {
       x: null,
@@ -291,13 +316,13 @@ var castleAreas = [
     order: 15,
     title: "2-5",
     ident: "2-5",
-    artist: "MobyPixel",
+    artist: "EnricosUt",
     artistImageOverride: "",
-    url: "https://twitter.com/MobyPixel",
+    url: "https://enricosut.carrd.co/",
     animation: false,
     point: {
-      x: 2592,
-      y: 1264
+      x: 1330,
+      y: 556
     },
     offset: {
       x: null,
@@ -315,13 +340,13 @@ var castleAreas = [
     order: 15,
     title: "2-6",
     ident: "2-6",
-    artist: "MobyPixel",
+    artist: "Rata",
     artistImageOverride: "",
-    url: "https://twitter.com/MobyPixel",
+    url: "http://twitter.com/ratariasart",
     animation: false,
     point: {
-      x: 2592,
-      y: 1264
+      x: 1650,
+      y: 556
     },
     offset: {
       x: null,
@@ -339,13 +364,13 @@ var castleAreas = [
     order: 16,
     title: "2-7",
     ident: "2-7",
-    artist: "Coelacamth",
+    artist: "Smoking Moon",
     artistImageOverride: "",
-    url: "https://twitter.com/COELACAMTH",
+    url: "",
     animation: false,
     point: {
-      x: 2208,
-      y: 1264
+      x: 1970,
+      y: 556
     },
     offset: {
       x: null,
@@ -368,8 +393,8 @@ var castleAreas = [
     url: "https://twitter.com/marceles_pxl",
     animation: false,
     point: {
-      x: 1824,
-      y: 1264
+      x: 2290,
+      y: 556
     },
     offset: {
       x: null,
@@ -387,13 +412,13 @@ var castleAreas = [
     order: 20,
     title: "3-1",
     ident: "3-1",
-    artist: "RyanKeeton",
+    artist: "MechaNinja",
     artistImageOverride: "",
-    url: "https://twitter.com/ryankeeton",
+    url: "https://twitter.com/m3ch4n1nj4?s=21&t=xhqPJRlpo2Xbp06uYJKdnA",
     animation: false,
     point: {
-      x: 1440,
-      y: 1056
+      x: 50,
+      y: 812
     },
     offset: {
       x: null,
@@ -411,13 +436,13 @@ var castleAreas = [
     order: 21,
     title: "3-2",
     ident: "3-2",
-    artist: "KhyleThePixelPrince",
+    artist: "Lyzerus",
     artistImageOverride: "",
-    url: "https://twitter.com/KhyleThe",
+    url: "https://twitter.com/AaronLyzerus",
     animation: false,
     point: {
-      x: 1056,
-      y: 1056
+      x: 370,
+      y: 812
     },
     offset: {
       x: null,
@@ -435,13 +460,13 @@ var castleAreas = [
     order: 22,
     title: "3-3",
     ident: "3-3",
-    artist: "Toni M",
-    artistImageOverride: "ToniM",
-    url: "https://twitter.com/PixelsMil",
+    artist: "Daizha",
+    artistImageOverride: "",
+    url: "https://twitter.com/scribulls",
     animation: true,
     point: {
-      x: 1056,
-      y: 864
+      x: 690,
+      y: 812
     },
     offset: {
       x: null,
@@ -459,13 +484,13 @@ var castleAreas = [
     order: 23,
     title: "3-4",
     ident: "3-4",
-    artist: "Neko",
+    artist: "PotatoCheep",
     artistImageOverride: "",
-    url: "https://twitter.com/nekocrocodile",
+    url: "https://twitter.com/generic_most",
     animation: false,
     point: {
-      x: 1440,
-      y: 864
+      x: 1010,
+      y: 812
     },
     offset: {
       x: null,
@@ -483,13 +508,13 @@ var castleAreas = [
     order: 24,
     title: "3-5",
     ident: "3-5",
-    artist: "Runtd",
+    artist: "",
     artistImageOverride: "",
-    url: "https://twitter.com/RuntdArt",
+    url: "",
     animation: false,
     point: {
-      x: 1824,
-      y: 864
+      x: 1330,
+      y: 812
     },
     offset: {
       x: null,
@@ -507,13 +532,13 @@ var castleAreas = [
     order: 25,
     title: "3-6",
     ident: "3-6",
-    artist: "Marceles",
+    artist: "unsilentwill",
     artistImageOverride: "",
-    url: "https://twitter.com/marceles_pxl",
+    url: "https://linktr.ee/unsilentwill",
     animation: false,
     point: {
-      x: 2208,
-      y: 864
+      x: 1650,
+      y: 812
     },
     offset: {
       x: null,
@@ -531,37 +556,13 @@ var castleAreas = [
     order: 26,
     title: "3-7",
     ident: "3-7",
-    artist: "Juanito",
+    artist: "Kenchinator",
     artistImageOverride: "",
-    url: "https://twitter.com/juanitomedinart",
+    url: "",
     animation: true,
     point: {
-      x: 2080,
-      y: 672
-    },
-    offset: {
-      x: null,
-      y: null,
-      width: null,
-      height: null
-    },
-    pan: "horizontal",
-    type: "terrace",
-    zoom: 2,
-    teleporters: [],
-    post_url: ""
-  },
-  {
-    order: 27,
-    title: "3-8",
-    ident: "3-8",
-    artist: "Vierbit",
-    artistImageOverride: "",
-    url: "https://twitter.com/vierbit",
-    animation: false,
-    point: {
-      x: 2592,
-      y: 672
+      x: 1970,
+      y: 812
     },
     offset: {
       x: null,
@@ -579,13 +580,13 @@ var castleAreas = [
     order: 37,
     title: "4-1",
     ident: "4-1",
-    artist: "Kosena",
+    artist: "NekoCrocodile",
     artistImageOverride: "",
-    url: "https://twitter.com/KosenaMaster",
+    url: "https://linktr.ee/nekocrocodile",
     animation: false,
     point: {
-      x: 4384,
-      y: 1872
+      x: 50,
+      y: 1068
     },
     offset: {
       x: null,
@@ -1544,8 +1545,32 @@ var castleAreas = [
     url: "https://twitter.com/MetaruPX",
     animation: false,
     point: {
-      x: 192,
-      y: 192
+      x: 1290,
+      y: 2192
+    },
+    offset: {
+      x: null,
+      y: null,
+      width: null,
+      height: null
+    },
+    pan: "horizontal",
+    type: "other",
+    zoom: 2,
+    teleporters: [],
+    post_url: ""
+  },
+  {
+    order: 74,
+    title: "0-1",
+    ident: "0-1",
+    artist: "Arvy",
+    artistImageOverride: "",
+    url: "https://linktr.ee/blindeduif",
+    animation: false,
+    point: {
+      x: 1191,
+      y: 50
     },
     offset: {
       x: null,
