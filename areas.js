@@ -1180,13 +1180,13 @@ var castleAreas = [
     order: 70,
     title: "7-2",
     ident: "7-2",
-    artist: "nasCobolo",
+    artist: "SamtheSalmon",
     artistImageOverride: "",
     url: "https://twitter.com/ratariasart",
     animation: false,
     point: {
-      x: 5088,
-      y: 48
+      x: 370,
+      y: 1836
     },
     offset: {
       x: null,
@@ -1204,13 +1204,13 @@ var castleAreas = [
     order: 71,
     title: "7-3",
     ident: "7-3",
-    artist: "nasCobolo",
+    artist: "Alwore",
     artistImageOverride: "",
-    url: "https://twitter.com/ratariasart",
+    url: "https://x.com/alwore_",
     animation: true,
     point: {
-      x: 4832,
-      y: 48
+      x: 690,
+      y: 1836
     },
     offset: {
       x: null,
@@ -1228,13 +1228,13 @@ var castleAreas = [
     order: 72,
     title: "7-4",
     ident: "7-4",
-    artist: "Zernek",
+    artist: "Atcero",
     artistImageOverride: "",
-    url: "https://twitter.com/Zernek1",
+    url: "https://bsky.app/profile/atcero.bsky.social",
     animation: false,
     point: {
-      x: 4576,
-      y: 48
+      x: 1010,
+      y: 1836
     },
     offset: {
       x: null,
@@ -1252,13 +1252,13 @@ var castleAreas = [
     order: 73,
     title: "7-5",
     ident: "7-5",
-    artist: "Zernek",
+    artist: "",
     artistImageOverride: "",
-    url: "https://twitter.com/Zernek1",
+    url: "",
     animation: false,
     point: {
-      x: 4576,
-      y: 48
+      x: 1330,
+      y: 1836
     },
     offset: {
       x: null,
@@ -1276,13 +1276,13 @@ var castleAreas = [
     order: 74,
     title: "7-6",
     ident: "7-6",
-    artist: "Zernek",
+    artist: "Emmazapan",
     artistImageOverride: "",
-    url: "https://twitter.com/Zernek1",
+    url: "https://linktr.ee/emmazapan",
     animation: false,
     point: {
-      x: 4576,
-      y: 48
+      x: 1650,
+      y: 1836
     },
     offset: {
       x: null,
@@ -1300,13 +1300,13 @@ var castleAreas = [
     order: 75,
     title: "7-7",
     ident: "7-7",
-    artist: "Zernek",
+    artist: "Zaebucca",
     artistImageOverride: "",
-    url: "https://twitter.com/Zernek1",
+    url: "https://zaebucca.carrd.co/",
     animation: false,
     point: {
-      x: 4576,
-      y: 48
+      x: 1970,
+      y: 1836
     },
     offset: {
       x: null,
@@ -1324,13 +1324,13 @@ var castleAreas = [
     order: 76,
     title: "7-8",
     ident: "7-8",
-    artist: "Zernek",
+    artist: "",
     artistImageOverride: "",
-    url: "https://twitter.com/Zernek1",
+    url: "",
     animation: false,
     point: {
-      x: 4576,
-      y: 48
+      x: 2290,
+      y: 1836
     },
     offset: {
       x: null,
@@ -1348,13 +1348,13 @@ var castleAreas = [
     order: 76,
     title: "8-1",
     ident: "8-1",
-    artist: "Zernek",
+    artist: "Dewndeym",
     artistImageOverride: "",
-    url: "https://twitter.com/Zernek1",
+    url: "https://twitter.com/Dewndeym",
     animation: false,
     point: {
-      x: 4576,
-      y: 48
+      x: 50,
+      y: 2092
     },
     offset: {
       x: null,
@@ -1372,13 +1372,13 @@ var castleAreas = [
     order: 76,
     title: "8-2",
     ident: "8-2",
-    artist: "Zernek",
+    artist: "Dewndeym",
     artistImageOverride: "",
     url: "",
     animation: false,
     point: {
-      x: 4576,
-      y: 48
+      x: 370,
+      y: 2092
     },
     offset: {
       x: null,
@@ -1546,7 +1546,7 @@ var castleAreas = [
     animation: false,
     point: {
       x: 1290,
-      y: 2192
+      y: 2448
     },
     offset: {
       x: null,
