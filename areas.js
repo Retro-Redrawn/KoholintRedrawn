@@ -1396,13 +1396,13 @@ var castleAreas = [
     order: 76,
     title: "8-3",
     ident: "8-3",
-    artist: "Zernek",
+    artist: "Yokaiy",
     artistImageOverride: "",
-    url: "",
+    url: "https://twitter.com/yoYokaiy",
     animation: false,
     point: {
-      x: 4576,
-      y: 48
+      x: 690,
+      y: 2092
     },
     offset: {
       x: null,
@@ -1420,13 +1420,13 @@ var castleAreas = [
     order: 76,
     title: "8-4",
     ident: "8-4",
-    artist: "Zernek",
+    artist: "Brando",
     artistImageOverride: "",
-    url: "",
+    url: "https://linktr.ee/brandoparm",
     animation: false,
     point: {
-      x: 4576,
-      y: 48
+      x: 1010,
+      y: 2092
     },
     offset: {
       x: null,
@@ -1444,13 +1444,13 @@ var castleAreas = [
     order: 76,
     title: "8-5",
     ident: "8-5",
-    artist: "Zernek",
-    artistImageOverride: "",
+    artist: "Btdangelo",
+    artistImageOverride: "https://linktr.ee/btdangelo",
     url: "",
     animation: false,
     point: {
-      x: 4576,
-      y: 48
+      x: 1330,
+      y: 2092
     },
     offset: {
       x: null,
@@ -1468,13 +1468,13 @@ var castleAreas = [
     order: 76,
     title: "8-6",
     ident: "8-6",
-    artist: "Zernek",
+    artist: "Btdangelo",
     artistImageOverride: "",
-    url: "",
+    url: "https://linktr.ee/btdangelo",
     animation: false,
     point: {
-      x: 4576,
-      y: 48
+      x: 1650,
+      y: 2092
     },
     offset: {
       x: null,
@@ -1492,13 +1492,13 @@ var castleAreas = [
     order: 76,
     title: "8-7",
     ident: "8-7",
-    artist: "Zernek",
+    artist: "Agua Hervida",
     artistImageOverride: "",
-    url: "",
+    url: "https://linktr.ee/AguaHervida",
     animation: false,
     point: {
-      x: 4576,
-      y: 48
+      x: 1970,
+      y: 2092
     },
     offset: {
       x: null,
@@ -1516,13 +1516,13 @@ var castleAreas = [
     order: 76,
     title: "8-8",
     ident: "8-8",
-    artist: "Zernek",
+    artist: "HadianK",
     artistImageOverride: "",
-    url: "",
+    url: "https://twitter.com/HaddianK",
     animation: false,
     point: {
-      x: 4576,
-      y: 48
+      x: 2290,
+      y: 2092
     },
     offset: {
       x: null,
@@ -1540,9 +1540,9 @@ var castleAreas = [
     order: 73,
     title: "END",
     ident: "END",
-    artist: "MetaruPX",
+    artist: "Nekocrocodile",
     artistImageOverride: "",
-    url: "https://twitter.com/MetaruPX",
+    url: "https://linktr.ee/nekocrocodile",
     animation: false,
     point: {
       x: 1290,
@@ -1564,7 +1564,7 @@ var castleAreas = [
     order: 74,
     title: "0-1",
     ident: "0-1",
-    artist: "Arvy",
+    artist: "Blindeduif",
     artistImageOverride: "",
     url: "https://linktr.ee/blindeduif",
     animation: false,
