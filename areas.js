@@ -427,7 +427,7 @@ var castleAreas = [
       height: null
     },
     pan: "horizontal",
-    type: "terrace",
+    type: "forest",
     zoom: 2,
     teleporters: [],
     post_url: ""
@@ -451,7 +451,7 @@ var castleAreas = [
       height: null
     },
     pan: "horizontal",
-    type: "terrace",
+    type: "forest",
     zoom: 2,
     teleporters: [],
     post_url: ""
@@ -595,7 +595,7 @@ var castleAreas = [
       height: null
     },
     pan: "horizontal",
-    type: "underground",
+    type: "forest",
     zoom: 2,
     teleporters: [],
     post_url: ""
@@ -619,7 +619,7 @@ var castleAreas = [
       height: null
     },
     pan: "horizontal",
-    type: "underground",
+    type: "forest",
     zoom: 2,
     teleporters: [],
     post_url: ""

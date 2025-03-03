@@ -33,7 +33,7 @@ var biomes = [
         name: "Terrace",
         ident: "terrace",
         iconId: "grass",
-        color: 'rgb(74 139 89)',
+        color: 'rgb(90 180 100)',
     },
     {
         name: "Underground",
@@ -59,4 +59,17 @@ var biomes = [
         iconId: "dataset",
         color: 'rgb(94 94 94)',
     },
+    {
+        name: "Mountain",
+        ident: "mounatain",
+        iconId: "landscape",
+        color: 'rgb(120 94 94)',
+    },
+    {
+        name: "Forest",
+        ident: "forest",
+        iconId: "forest",
+        color: 'rgb(30 120 80)',
+    },
+    
 ];
