@@ -48,6 +48,19 @@ var biomes = [
         color: 'rgb(114 79 52)',
     },
     {
+        name: "Town",
+        ident: "town",
+        iconId: "house",
+        color: 'rgb(114 79 52)',
+    },
+    {
+        name: "Dungeon",
+        ident: "dungeon",
+        iconId: "music_note",
+        color: 'rgb(129 28 56)',
+    },
+
+    {
         name: "Boss",
         ident: "boss",
         iconId: "dark_mode",
@@ -61,7 +74,7 @@ var biomes = [
     },
     {
         name: "Mountain",
-        ident: "mounatain",
+        ident: "mountain",
         iconId: "landscape",
         color: 'rgb(120 94 94)',
     },
