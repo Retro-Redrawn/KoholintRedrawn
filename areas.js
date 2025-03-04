@@ -67,7 +67,7 @@ var castleAreas = [
       height: null
     },
     pan: "horizontal",
-    type: "castle",
+    type: "mountain",
     zoom: 2,
     teleporters: [],
     post_url: ""
