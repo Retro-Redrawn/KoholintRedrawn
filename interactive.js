@@ -1026,7 +1026,7 @@ function getActiveArea () {
 
 /** Callback occurring when the window is resized. */
 function onResize () {
-    app.renderer.resize(window.innerWidth, window.innerHeight);
+    if(app && app.renderer) app.renderer.resize(window.innerWidth, window.innerHeight);
 }
 
 function changeCameraSpeed (e) {
