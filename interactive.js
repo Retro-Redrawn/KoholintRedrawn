@@ -35,6 +35,9 @@ var mapImages = null;
 var currentMapStyle = NEW_STYLE_NAME;
 var viewport = null;
 
+// Auto Highlight
+var autoHighlight = true;
+var highlightedArea = null;
 
 // Filters
 var blurFilter = null
@@ -523,7 +526,7 @@ function tick () {
             pinchForTick = null
         }
         checkMapBoundaries()
-
+        checkAutoHighlight()
     } else {
 
         // Calculate position and scale changes relative to a camera animation adjustment
@@ -982,6 +985,25 @@ function checkMapBoundaries () {
     if (map.y > Math.floor(window.innerHeight / 2)) { map.y = Math.floor(window.innerHeight / 2) }
     if (map.x < Math.floor(window.innerWidth / 2) - map.width) { map.x = Math.floor(window.innerWidth / 2) - map.width }
     if (map.y < Math.floor(window.innerHeight / 2) - map.height) { map.y = Math.floor(window.innerHeight / 2) - map.height }
+}
+
+function checkAutoHighlight() {
+    if (autoHighlight) {
+        var mapPosition = screenToMapPoint({ x: app.renderer.width / 2, y: app.renderer.height / 2 }, map, currentZoom);
+        if (document.querySelector('.menu').classList.contains('active')) {
+            mapPosition.x += (150 / currentZoom);//Offset when menu is open (which has a fixed width of 300px)
+        }
+        var area = getAreaOnPoint(mapPosition, activeAreas);
+        if (area && highlightedArea != area) {
+            // console.log(highlightedArea);
+            highlightedArea = area;
+            for (var i = 0; i < activeAreas.length; i++) {
+                hideAreaZone(activeAreas[i])
+            }
+            showAreaZone(area);
+            openAreaInDOM(area);
+        }
+    }
 }
 
 //#region Math
