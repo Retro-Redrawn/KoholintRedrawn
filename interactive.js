@@ -101,12 +101,14 @@ function loadLayer (areaArray, areaImageArray, areaOldImageArray, layerSubfolder
         var img = new Image();
         img.src = createImageLink(layerSubfolder, NEW_STYLE_NAME, area.ident);
         img.onload = function () { onAreaImageLoaded(areaImageArray); };
+        img.onerror = function () { onAreaImageLoaded(areaImageArray); };//The image failed to load, but the show must go on!
         areaImageArray.push(img);
 
         // Load old images
         var oldimg = new Image();
         oldimg.src = createImageLink(layerSubfolder, OLD_STYLE_NAME, area.ident);
         oldimg.onload = function () { onAreaImageLoaded(areaOldImageArray); };
+        oldimg.onerror = function () { onAreaImageLoaded(areaOldImageArray); };//The image failed to load, but the show must go on!
         areaOldImageArray.push(oldimg);
     }
 }
