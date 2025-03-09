@@ -849,7 +849,7 @@ function openAreaInDOM (a) {
     if (typeof a === 'string') {
         area = activeAreas.find(x => x.title === a)
     }
-    var elems = document.querySelectorAll(`#areas`)
+    var elems = document.querySelectorAll(`.area`)
     if (elems.length > 0) {
         for (var i = 0; i < elems.length; i++) {
             var elem = elems[i]
