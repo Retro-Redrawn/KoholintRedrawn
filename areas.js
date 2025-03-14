@@ -222,7 +222,7 @@ var castleAreas = [
     ident: "2-1",
     artist: "Don",
     artistImageOverride: "",
-    url: "",
+    url: "https://bsky.app/profile/donpixels.bsky.social",
     animation: false,
     point: {
       x: 50,
@@ -1546,7 +1546,7 @@ var castleAreas = [
     animation: false,
     point: {
       x: 1290,
-      y: 2448
+      y: 2608
     },
     offset: {
       x: null,
@@ -1562,7 +1562,7 @@ var castleAreas = [
   },
   {
     order: 74,
-    title: "0-1",
+    title: "Koholint Redrawn",
     ident: "0-1",
     artist: "Blindeduif",
     artistImageOverride: "",
@@ -1580,6 +1580,198 @@ var castleAreas = [
     },
     pan: "horizontal",
     type: "other",
+    zoom: 2,
+    teleporters: [],
+    post_url: ""
+  },
+  {
+    order: 75,
+    title: "Windfish",
+    ident: "windfish",
+    artist: "unsilentwill",
+    artistImageOverride: "https://linktr.ee/unsilentwill",
+    url: "",
+    animation: false,
+    point: {
+      x: 1290,
+      y: 2768
+    },
+    offset: {
+      x: null,
+      y: null,
+      width: null,
+      height: null
+    },
+    pan: "horizontal",
+    type: "other",
+    zoom: 2,
+    teleporters: [],
+    post_url: ""
+  },
+  {
+    order: 76,
+    title: "Mural",
+    ident: "mural",
+    artist: "Rata",
+    artistImageOverride: "",
+    url: "https://bsky.app/profile/ratazart.bsky.social",
+    animation: false,
+    point: {
+      x: 1290,
+      y: 2448
+    },
+    offset: {
+      x: null,
+      y: null,
+      width: null,
+      height: null
+    },
+    pan: "horizontal",
+    type: "other",
+    zoom: 2,
+    teleporters: [],
+    post_url: ""
+  },
+  {
+    order: 77,
+    title: "Armos Knight",
+    ident: "bossarmor",
+    artist: "Zaebucca",
+    artistImageOverride: "",
+    url: "https://zaebucca.itch.io/",
+    animation: false,
+    point: {
+      x: 50,
+      y: 2448
+    },
+    offset: {
+      x: null,
+      y: null,
+      width: null,
+      height: null
+    },
+    pan: "horizontal",
+    type: "boss",
+    zoom: 2,
+    teleporters: [],
+    post_url: ""
+  },
+  {
+    order: 78,
+    title: "Moldorm",
+    ident: "boss1",
+    artist: "NormalNeighbor",
+    artistImageOverride: "",
+    url: "https://twitter.com/PixelNeighbor",
+    animation: false,
+    point: {
+      x: 250,
+      y: 2448
+    },
+    offset: {
+      x: null,
+      y: null,
+      width: null,
+      height: null
+    },
+    pan: "horizontal",
+    type: "boss",
+    zoom: 2,
+    teleporters: [],
+    post_url: ""
+  },
+  {
+    order: 79,
+    title: "Genie",
+    ident: "boss2",
+    artist: "PotatoCheep",
+    artistImageOverride: "",
+    url: "https://twitter.com/generic_most",
+    animation: false,
+    point: {
+      x: 450,
+      y: 2448
+    },
+    offset: {
+      x: null,
+      y: null,
+      width: null,
+      height: null
+    },
+    pan: "horizontal",
+    type: "boss",
+    zoom: 2,
+    teleporters: [],
+    post_url: ""
+  },
+  {
+    order: 80,
+    title: "Slime Eye",
+    ident: "boss3",
+    artist: "Lamington",
+    artistImageOverride: "",
+    url: "https://twitter.https://linktr.ee/lamington/generic_most",
+    animation: false,
+    point: {
+      x: 650,
+      y: 2448
+    },
+    offset: {
+      x: null,
+      y: null,
+      width: null,
+      height: null
+    },
+    pan: "horizontal",
+    type: "boss",
+    zoom: 2,
+    teleporters: [],
+    post_url: ""
+  },
+  {
+    order: 81,
+    title: "Angler Fish",
+    ident: "boss4",
+    artist: "Yokaiy",
+    artistImageOverride: "",
+    url: "https://bsky.app/profile/yokaiy.bsky.social",
+    animation: false,
+    point: {
+      x: 850,
+      y: 2448
+    },
+    offset: {
+      x: null,
+      y: null,
+      width: null,
+      height: null
+    },
+    pan: "horizontal",
+    type: "boss",
+    zoom: 2,
+    teleporters: [],
+    post_url: ""
+  },
+  {
+    order: 82,
+    title: "Slime Eel",
+    ident: "boss5",
+    artist: "Lyzerus",
+    artistImageOverride: "",
+    url: "https://twitter.com/AaronLyzerus",
+    animation: false,
+    point: {
+      x: 1050,
+      y: 2448
+    },
+    offset: {
+      x: null,
+      y: null,
+      width: null,
+      height: null
+    },
+    pan: "horizontal",
+    type: "boss",
     zoom: 2,
     teleporters: [],
     post_url: ""
