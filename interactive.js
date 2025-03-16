@@ -864,6 +864,38 @@ function openAreaInDOM (a) {
             }       
         }
     }
+    updateMobileArtist(area);
+}
+
+function updateMobileArtist(area) {
+    var areaArtist = area.artist.replace('@', '');
+    document.querySelector('.artist_mobile').style.display = areaArtist === '' ? 'none' : '';
+
+    var containerName = document.querySelector('.artist_mobile .area__info__name');
+    containerName.innerHTML = `
+        ${area.url ? `<a href="${area.url}" target="_blank" title="${area.artist}">${area.artist}</a>` : `<a>${area.artist}</a>`}
+        ${area.post_url ? `<a href="${area.post_url}" target="_blank" title="View Post">[View Post]</a>` : ''}
+    `;
+    var containerImage = document.querySelector('.artist_mobile .area__info__img');
+    var a = document.querySelector('.artist_mobile .area__info__img a');
+    a.href = area.url;
+    a.title = area.artist;
+    var image = document.querySelector('.artist_mobile .area__info__img img');
+
+    var areaArtistImage = area.artistImageOverride;
+    if (areaArtistImage === '') {
+        areaArtistImage = areaArtist;   // Fallback if no artist image is defined
+    }
+    var artistImgPath = artistImgDir + areaArtistImage + artistImgExtension;
+
+    image.src = artistImgPath;
+    image.alt = area.artist;
+    image.onload = function(){
+        containerImage.style.display = '';
+    }
+    image.onerror = function(){
+        containerImage.style.display = 'none';
+    };
 }
 
 // #region Tour Methods
