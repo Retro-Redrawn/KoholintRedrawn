@@ -579,12 +579,7 @@ function toggleMenu () {
     elem.classList.toggle('active')
     var activeArea = getActiveArea()
     if (activeArea) {
-        if (elem.classList.contains('active')) {
-            showAreaZone(activeArea.obj)
-
-        } else {
-            hideAreaZone(activeArea.obj)
-        }
+        openAreaInDOM(activeArea.obj)
     }
     
 }
