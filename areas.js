@@ -1776,4 +1776,196 @@ var castleAreas = [
     teleporters: [],
     post_url: ""
   },
+  {
+    order: 83,
+    title: "Facade",
+    ident: "boss6",
+    artist: "Blindeduif",
+    artistImageOverride: "",
+    url: "https://linktr.ee/blindeduif",
+    animation: false,
+    point: {
+      x: 1530,
+      y: 2448
+    },
+    offset: {
+      x: null,
+      y: null,
+      width: null,
+      height: null
+    },
+    pan: "horizontal",
+    type: "boss",
+    zoom: 2,
+    teleporters: [],
+    post_url: ""
+  },
+  {
+    order: 84,
+    title: "Evil Eagle",
+    ident: "boss7",
+    artist: "Daizha",
+    artistImageOverride: "",
+    url: "https://twitter.com/scribulls",
+    animation: false,
+    point: {
+      x: 1730,
+      y: 2448
+    },
+    offset: {
+      x: null,
+      y: null,
+      width: null,
+      height: null
+    },
+    pan: "horizontal",
+    type: "boss",
+    zoom: 2,
+    teleporters: [],
+    post_url: ""
+  },
+  {
+    order: 85,
+    title: "Hot Head",
+    ident: "boss8",
+    artist: "Wilperi",
+    artistImageOverride: "",
+    url: "https://linktr.ee/wilperi",
+    animation: false,
+    point: {
+      x: 1930,
+      y: 2448
+    },
+    offset: {
+      x: null,
+      y: null,
+      width: null,
+      height: null
+    },
+    pan: "horizontal",
+    type: "boss",
+    zoom: 2,
+    teleporters: [],
+    post_url: ""
+  },
+  {
+    order: 86,
+    title: "Shadow Aghinium",
+    ident: "boss9",
+    artist: "Blindeduif",
+    artistImageOverride: "",
+    url: "https://linktr.ee/blindeduif",
+    animation: false,
+    point: {
+      x: 2130,
+      y: 2448
+    },
+    offset: {
+      x: null,
+      y: null,
+      width: null,
+      height: null
+    },
+    pan: "horizontal",
+    type: "boss",
+    zoom: 2,
+    teleporters: [],
+    post_url: ""
+  },
+  {
+    order: 87,
+    title: "Shadow Ganon",
+    ident: "boss10",
+    artist: "Mikel",
+    artistImageOverride: "",
+    url: "https://twitter.com/RomanoOjea",
+    animation: false,
+    point: {
+      x: 2330,
+      y: 2448
+    },
+    offset: {
+      x: null,
+      y: null,
+      width: null,
+      height: null
+    },
+    pan: "horizontal",
+    type: "boss",
+    zoom: 2,
+    teleporters: [],
+    post_url: ""
+  },
+  {
+    order: 88,
+    title: "Shadow Nightmare",
+    ident: "boss11",
+    artist: "StrawBe",
+    artistImageOverride: "",
+    url: "https://x.com/StrawPact",
+    animation: false,
+    point: {
+      x: 2530,
+      y: 2448
+    },
+    offset: {
+      x: null,
+      y: null,
+      width: null,
+      height: null
+    },
+    pan: "horizontal",
+    type: "boss",
+    zoom: 2,
+    teleporters: [],
+    post_url: ""
+  },
+  {
+    order: 89,
+    title: "Intro",
+    ident: "intro",
+    artist: "Ota",
+    artistImageOverride: "",
+    url: "https://linktr.ee/otapxl",
+    animation: false,
+    point: {
+      x: 991,
+      y: 50
+    },
+    offset: {
+      x: null,
+      y: null,
+      width: null,
+      height: null
+    },
+    pan: "horizontal",
+    type: "other",
+    zoom: 2,
+    teleporters: [],
+    post_url: ""
+  },
+  {
+    order: 90,
+    title: "Menu",
+    ident: "menu",
+    artist: "M3ch4 N1nj4",
+    artistImageOverride: "",
+    url: "https://bsky.app/profile/m3ch4n1nj4.bsky.social",
+    animation: false,
+    point: {
+      x: 1591,
+      y: 50
+    },
+    offset: {
+      x: null,
+      y: null,
+      width: null,
+      height: null
+    },
+    pan: "horizontal",
+    type: "other",
+    zoom: 2,
+    teleporters: [],
+    post_url: ""
+  },
 ]
