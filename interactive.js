@@ -868,8 +868,9 @@ function openAreaInDOM (a) {
 }
 
 function updateMobileArtist(area) {
+    
     var areaArtist = area.artist.replace('@', '');
-    document.querySelector('.artist_mobile').style.display = areaArtist === '' ? 'none' : '';
+    document.querySelector('.artist_mobile').style.display = areaArtist === '' ? 'none' : isMenuOpen() ? 'none' : '';
 
     var containerName = document.querySelector('.artist_mobile .area__info__name');
     containerName.innerHTML = `
@@ -887,9 +888,10 @@ function updateMobileArtist(area) {
         areaArtistImage = areaArtist;   // Fallback if no artist image is defined
     }
     var artistImgPath = artistImgDir + areaArtistImage + artistImgExtension;
-
     image.src = artistImgPath;
     image.alt = area.artist;
+
+    containerImage.style.display = 'none';
     image.onload = function(){
         containerImage.style.display = '';
     }
@@ -1022,7 +1024,7 @@ function checkMapBoundaries () {
 function checkAutoHighlight() {
     if (autoHighlight) {
         var mapPosition = screenToMapPoint({ x: app.renderer.width / 2, y: app.renderer.height / 2 }, map, currentZoom);
-        if (document.querySelector('.menu').classList.contains('active')) {
+        if (isMenuOpen()) {
             mapPosition.x += (150 / currentZoom);//Offset when menu is open (which has a fixed width of 300px)
         }
         var area = getAreaOnPoint(mapPosition, activeAreas);

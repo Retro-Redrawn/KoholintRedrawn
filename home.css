@@ -422,20 +422,18 @@ a{
 .artist_mobile {
     display: none;
 }
-@media only screen and (orientation: portrait) {
-    .artist_mobile {
-        display: flex;
-        position: absolute;
-        right: 0;
-        bottom: 0;
-        width: auto;
-        height: 64px;
-        margin: 5px;
-        background-color: rgba(0, 0, 0, .4);
-    }
-    
-    .artist_mobile .area__info__name {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
+.artist_mobile {
+    display: flex;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: auto;
+    height: 64px;
+    margin: 5px;
+    background-color: rgba(0, 0, 0, .4);
+}
+
+.artist_mobile .area__info__name {
+    padding-left: 20px;
+    padding-right: 20px;
 }
