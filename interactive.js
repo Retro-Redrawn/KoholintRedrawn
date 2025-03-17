@@ -103,15 +103,13 @@ function loadLayer (areaArray, areaImageArray, areaOldImageArray, layerSubfolder
         // Load new images
         var img = new Image();
         img.src = createImageLink(layerSubfolder, NEW_STYLE_NAME, area.ident);
-        img.onload = function () { onAreaImageLoaded(areaImageArray); };
-        img.onerror = function () { onAreaImageLoaded(areaImageArray); };//The image failed to load, but the show must go on!
+        checkImageLoaded(img, function () { onAreaImageLoaded(areaImageArray); });
         areaImageArray.push(img);
-
+        
         // Load old images
         var oldimg = new Image();
         oldimg.src = createImageLink(layerSubfolder, OLD_STYLE_NAME, area.ident);
-        oldimg.onload = function () { onAreaImageLoaded(areaOldImageArray); };
-        oldimg.onerror = function () { onAreaImageLoaded(areaOldImageArray); };//The image failed to load, but the show must go on!
+        checkImageLoaded(oldimg, function () { onAreaImageLoaded(areaImageArray); });
         areaOldImageArray.push(oldimg);
     }
 }
@@ -151,6 +149,24 @@ function onAreaImageLoaded (areaImageArray) {
             completeLoading();
         }
     }
+}
+
+//Check if the image is properly loaded and rendered, .complete does not mean it is rendered and the size is might be set incorrectly
+function checkImageLoaded(img, callback) {
+    img.onload = function () {
+        if (img.naturalHeight > 0 && img.naturalWidth > 0) callback();
+        var counter = 0;
+        var interval = setInterval(function () {
+            counter++;
+            if ((img.naturalHeight > 0 && img.naturalWidth > 0) || counter >= 20) {
+                clearInterval(interval);
+                callback();
+            }
+        }, 500);
+    };
+    img.onerror = function() {
+        callback();
+    };
 }
 
 /** Completes the loading process. */
