@@ -91,7 +91,7 @@ var castleAreas = [
       height: null
     },
     pan: "horizontal",
-    type: "castle",
+    type: "dungeon",
     zoom: 2,
     teleporters: [],
     post_url: ""
@@ -115,7 +115,7 @@ var castleAreas = [
       height: null
     },
     pan: "horizontal",
-    type: "castle",
+    type: "mountain",
     zoom: 2,
     teleporters: [],
     post_url: ""
@@ -139,7 +139,7 @@ var castleAreas = [
       height: null
     },
     pan: "horizontal",
-    type: "castle",
+    type: "mountain",
     zoom: 2,
     teleporters: [],
     post_url: ""
@@ -163,7 +163,7 @@ var castleAreas = [
       height: null
     },
     pan: "horizontal",
-    type: "castle",
+    type: "mountain",
     zoom: 2,
     teleporters: [],
     post_url: ""
@@ -187,7 +187,7 @@ var castleAreas = [
       height: null
     },
     pan: "horizontal",
-    type: "castle",
+    type: "mountain",
     zoom: 2,
     teleporters: [],
     post_url: ""
@@ -211,7 +211,7 @@ var castleAreas = [
       height: null
     },
     pan: "horizontal",
-    type: "castle",
+    type: "dungeon",
     zoom: 2,
     teleporters: [],
     post_url: ""
@@ -235,7 +235,7 @@ var castleAreas = [
       height: null
     },
     pan: "horizontal",
-    type: "castle",
+    type: "terrace",
     zoom: 2,
     teleporters: [],
     post_url: ""
@@ -259,7 +259,7 @@ var castleAreas = [
       height: null
     },
     pan: "horizontal",
-    type: "castle",
+    type: "terrace",
     zoom: 2,
     teleporters: [],
     post_url: ""
@@ -283,7 +283,7 @@ var castleAreas = [
       height: null
     },
     pan: "horizontal",
-    type: "castle",
+    type: "dungeon",
     zoom: 2,
     teleporters: [],
     post_url: ""
@@ -691,7 +691,7 @@ var castleAreas = [
       height: null
     },
     pan: "horizontal",
-    type: "terrace",
+    type: "castle",
     zoom: 2,
     teleporters: [],
     post_url: ""
@@ -700,7 +700,7 @@ var castleAreas = [
     order: 43,
     title: "4-6",
     ident: "4-6",
-    artist: "DEviFoxx",
+    artist: "DeviFoxx",
     artistImageOverride: "",
     url: "",
     animation: false,
@@ -715,7 +715,7 @@ var castleAreas = [
       height: null
     },
     pan: "horizontal",
-    type: "terrace",
+    type: "castle",
     zoom: 2,
     teleporters: [],
     post_url: ""
@@ -770,7 +770,7 @@ var castleAreas = [
   },
   {
     order: 48,
-    title: "5-1",
+    title: "Mabe Village 1",
     ident: "5-1",
     artist: "Dusty",
     artistImageOverride: "",
@@ -787,14 +787,14 @@ var castleAreas = [
       height: null
     },
     pan: "horizontal",
-    type: "castle",
+    type: "town",
     zoom: 2,
     teleporters: [],
     post_url: ""
   },
   {
     order: 49,
-    title: "5-2",
+    title: "Mabe Village 2",
     ident: "5-2",
     artist: "Blind3dbylight",
     artistImageOverride: "",
@@ -811,7 +811,7 @@ var castleAreas = [
       height: null
     },
     pan: "horizontal",
-    type: "castle",
+    type: "town",
     zoom: 2,
     teleporters: [],
     post_url: ""
@@ -835,7 +835,7 @@ var castleAreas = [
       height: null
     },
     pan: "horizontal",
-    type: "castle",
+    type: "terrace",
     zoom: 2,
     teleporters: [],
     post_url: ""
@@ -962,7 +962,7 @@ var castleAreas = [
   },
   {
     order: 60,
-    title: "6-1",
+    title: "Mabe Village 3",
     ident: "6-1",
     artist: "Lamington",
     artistImageOverride: "",
@@ -979,14 +979,14 @@ var castleAreas = [
       height: null
     },
     pan: "horizontal",
-    type: "terrace",
+    type: "town",
     zoom: 2,
     teleporters: [],
     post_url: ""
   },
   {
     order: 61,
-    title: "6-2",
+    title: "Mabe Village 4",
     ident: "6-2",
     artist: "Blind3dbylight",
     artistImageOverride: "",
@@ -1003,7 +1003,7 @@ var castleAreas = [
       height: null
     },
     pan: "horizontal",
-    type: "terrace",
+    type: "town",
     zoom: 2,
     teleporters: [],
     post_url: ""
@@ -1298,7 +1298,7 @@ var castleAreas = [
   },
   {
     order: 75,
-    title: "7-7",
+    title: "Animal Village",
     ident: "7-7",
     artist: "Zaebucca",
     artistImageOverride: "",
@@ -1315,7 +1315,7 @@ var castleAreas = [
       height: null
     },
     pan: "horizontal",
-    type: "boss",
+    type: "town",
     zoom: 2,
     teleporters: [],
     post_url: ""
@@ -1444,7 +1444,7 @@ var castleAreas = [
     order: 76,
     title: "8-5",
     ident: "8-5",
-    artist: "Btdangelo",
+    artist: "BTdangelo",
     artistImageOverride: "https://linktr.ee/btdangelo",
     url: "",
     animation: false,
