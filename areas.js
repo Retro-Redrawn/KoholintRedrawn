@@ -2,7 +2,7 @@ var castleAreas = [
 
   {
     order: 1,
-    title: "1-1",
+    title: "Turtle Rock",
     ident: "1-1",
     artist: "Wilperi",
     artistImageOverride: "",
@@ -26,7 +26,7 @@ var castleAreas = [
   },
   {
     order: 2,
-    title: "1-2",
+    title: "Tal Tal Mountain Range",
     ident: "1-2",
     artist: "Foo",
     artistImageOverride: "",
@@ -50,7 +50,7 @@ var castleAreas = [
   },
   {
     order: 3,
-    title: "1-3",
+    title: "Tal Tal Mountain Range 2",
     ident: "1-3",
     artist: "Juanito",
     artistImageOverride: "",
@@ -74,7 +74,7 @@ var castleAreas = [
   },
   {
     order: 4,
-    title: "1-4",
+    title: "Mt. Tamaranch",
     ident: "1-4",
     artist: "WukongJr",
     artistImageOverride: "",
@@ -98,7 +98,7 @@ var castleAreas = [
   },
   {
     order: 5,
-    title: "1-5",
+    title: "Tal Tal Mountain Range 3",
     ident: "1-5",
     artist: "Brando",
     artistImageOverride: "",
@@ -122,7 +122,7 @@ var castleAreas = [
   },
   {
     order: 6,
-    title: "1-6",
+    title: "Tal Tal Mountain Range 4",
     ident: "1-6",
     artist: "Brando",
     artistImageOverride: "",
@@ -146,7 +146,7 @@ var castleAreas = [
   },
   {
     order: 6,
-    title: "1-7",
+    title: "Tal Tal Mountain Range 5",
     ident: "1-7",
     artist: "Darth_Scorpion",
     artistImageOverride: "",
@@ -170,7 +170,7 @@ var castleAreas = [
   },
   {
     order: 9,
-    title: "1-8",
+    title: "Tal Tal Mountain Range 6",
     ident: "1-8",
     artist: "Blindeduif",
     artistImageOverride: "",
@@ -270,7 +270,7 @@ var castleAreas = [
     ident: "2-3",
     artist: "Lyzerus",
     artistImageOverride: "",
-    url: "",
+    url: "https://bsky.app/profile/lyzerus.bsky.social",
     animation: false,
     point: {
       x: 690,
@@ -388,9 +388,9 @@ var castleAreas = [
     order: 17,
     title: "2-8",
     ident: "2-8",
-    artist: "Marceles",
+    artist: "Darth_Scorpion84",
     artistImageOverride: "",
-    url: "https://twitter.com/marceles_pxl",
+    url: "https://darkscorpion19.carrd.co/",
     animation: false,
     point: {
       x: 2290,
@@ -506,11 +506,11 @@ var castleAreas = [
   },
   {
     order: 24,
-    title: "3-5",
+    title: "Kanalet Castle",
     ident: "3-5",
-    artist: "",
+    artist: "unsilentwill",
     artistImageOverride: "",
-    url: "",
+    url: "https://linktr.ee/unsilentwill",
     animation: false,
     point: {
       x: 1330,
@@ -530,7 +530,7 @@ var castleAreas = [
   },
   {
     order: 25,
-    title: "3-6",
+    title: "Kanalet Castle",
     ident: "3-6",
     artist: "unsilentwill",
     artistImageOverride: "",
@@ -674,7 +674,7 @@ var castleAreas = [
   },
   {
     order: 42,
-    title: "4-5",
+    title: "Kanalet Castle",
     ident: "4-5",
     artist: "Ota",
     artistImageOverride: "",
@@ -698,7 +698,7 @@ var castleAreas = [
   },
   {
     order: 43,
-    title: "4-6",
+    title: "Kanalet Castle",
     ident: "4-6",
     artist: "DeviFoxx",
     artistImageOverride: "",
@@ -724,7 +724,7 @@ var castleAreas = [
     order: 44,
     title: "4-7",
     ident: "4-7",
-    artist: "Curelapse",
+    artist: "",
     artistImageOverride: "",
     url: "",
     animation: false,
@@ -739,7 +739,7 @@ var castleAreas = [
       height: null
     },
     pan: "horizontal",
-    type: "terrace",
+    type: "castle",
     zoom: 2,
     teleporters: [],
     post_url: ""
@@ -859,14 +859,14 @@ var castleAreas = [
       height: null
     },
     pan: "horizontal",
-    type: "castle",
+    type: "terrace",
     zoom: 2,
     teleporters: [],
     post_url: ""
   },
   {
     order: 52,
-    title: "5-5",
+    title: "Telephone Booth",
     ident: "5-5",
     artist: "BG",
     artistImageOverride: "",
@@ -883,14 +883,14 @@ var castleAreas = [
       height: null
     },
     pan: "horizontal",
-    type: "castle",
+    type: "terrace",
     zoom: 2,
     teleporters: [],
     post_url: ""
   },
   {
     order: 53,
-    title: "5-6",
+    title: "Seashell Mansion ",
     ident: "5-6",
     artist: "BleuPale",
     artistImageOverride: "",
@@ -907,14 +907,14 @@ var castleAreas = [
       height: null
     },
     pan: "horizontal",
-    type: "castle",
+    type: "town",
     zoom: 2,
     teleporters: [],
     post_url: ""
   },
   {
     order: 54,
-    title: "5-7",
+    title: "Face Shrine",
     ident: "5-7",
     artist: "AtticusFinn",
     artistImageOverride: "",
@@ -931,7 +931,7 @@ var castleAreas = [
       height: null
     },
     pan: "horizontal",
-    type: "castle",
+    type: "dungeon",
     zoom: 2,
     teleporters: [],
     post_url: ""
@@ -1027,7 +1027,7 @@ var castleAreas = [
       height: null
     },
     pan: "horizontal",
-    type: "terrace",
+    type: "dungeon",
     zoom: 2,
     teleporters: [],
     post_url: ""
@@ -1075,7 +1075,7 @@ var castleAreas = [
       height: null
     },
     pan: "horizontal",
-    type: "castle",
+    type: "terrace",
     zoom: 2,
     teleporters: [],
     post_url: ""
@@ -1099,14 +1099,14 @@ var castleAreas = [
       height: null
     },
     pan: "horizontal",
-    type: "castle",
+    type: "terrace",
     zoom: 2,
     teleporters: [],
     post_url: ""
   },
   {
     order: 66,
-    title: "6-7",
+    title: "Southern Face Shrine",
     ident: "6-7",
     artist: "Aisna",
     artistImageOverride: "",
@@ -1123,7 +1123,7 @@ var castleAreas = [
       height: null
     },
     pan: "horizontal",
-    type: "castle",
+    type: "dungeon",
     zoom: 2,
     teleporters: [],
     post_url: ""
@@ -1252,9 +1252,9 @@ var castleAreas = [
     order: 73,
     title: "7-5",
     ident: "7-5",
-    artist: "",
+    artist: "Zushi3DHero",
     artistImageOverride: "",
-    url: "",
+    url: "https://linktr.ee/zushi3dhero",
     animation: false,
     point: {
       x: 1330,
@@ -1324,9 +1324,9 @@ var castleAreas = [
     order: 76,
     title: "7-8",
     ident: "7-8",
-    artist: "",
+    artist: "Crowno",
     artistImageOverride: "",
-    url: "",
+    url: "https://bsky.app/profile/crowno.bsky.social",
     animation: false,
     point: {
       x: 2290,
