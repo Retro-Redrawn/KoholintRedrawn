@@ -194,7 +194,7 @@ var castleAreas = [
   },
   {
     order: 10,
-    title: "1-9",
+    title: "Eagle's Tower",
     ident: "1-9",
     artist: "BassproShopspyramids",
     artistImageOverride: "",
@@ -218,7 +218,7 @@ var castleAreas = [
   },
   {
     order: 11,
-    title: "2-1",
+    title: "Mr. Write",
     ident: "2-1",
     artist: "Don",
     artistImageOverride: "",
@@ -242,7 +242,7 @@ var castleAreas = [
   },
   {
     order: 12,
-    title: "2-2",
+    title: "Goponga Swamp",
     ident: "2-2",
     artist: "Pikethorn",
     artistImageOverride: "",
@@ -266,7 +266,7 @@ var castleAreas = [
   },
   {
     order: 13,
-    title: "2-3",
+    title: "Battle Groto",
     ident: "2-3",
     artist: "Lyzerus",
     artistImageOverride: "",
@@ -290,7 +290,7 @@ var castleAreas = [
   },
   {
     order: 14,
-    title: "2-4",
+    title: "Dampé's Shack",
     ident: "2-4",
     artist: "Marina",
     artistImageOverride: "",
@@ -314,7 +314,7 @@ var castleAreas = [
   },
   {
     order: 15,
-    title: "2-5",
+    title: "Tal Tal Heights",
     ident: "2-5",
     artist: "EnricosUt",
     artistImageOverride: "",
@@ -331,14 +331,14 @@ var castleAreas = [
       height: null
     },
     pan: "horizontal",
-    type: "castle",
+    type: "terrace",
     zoom: 2,
     teleporters: [],
     post_url: ""
   },
   {
     order: 15,
-    title: "2-6",
+    title: "Angler's Tunnel",
     ident: "2-6",
     artist: "Rata",
     artistImageOverride: "",
@@ -355,14 +355,14 @@ var castleAreas = [
       height: null
     },
     pan: "horizontal",
-    type: "castle",
+    type: "dungeon",
     zoom: 2,
     teleporters: [],
     post_url: ""
   },
   {
     order: 16,
-    title: "2-7",
+    title: "Tal Tal Heights 2",
     ident: "2-7",
     artist: "Smoking Moon",
     artistImageOverride: "Smokingmoon",
@@ -386,7 +386,7 @@ var castleAreas = [
   },
   {
     order: 17,
-    title: "2-8",
+    title: "Papid Raids",
     ident: "2-8",
     artist: "Darth_Scorpion84",
     artistImageOverride: "",
@@ -403,14 +403,14 @@ var castleAreas = [
       height: null
     },
     pan: "horizontal",
-    type: "castle",
+    type: "town",
     zoom: 2,
     teleporters: [],
     post_url: ""
   },
   {
     order: 20,
-    title: "3-1",
+    title: "Mysterious Forest",
     ident: "3-1",
     artist: "M3ch4 N1nj4",
     artistImageOverride: "",
@@ -434,7 +434,7 @@ var castleAreas = [
   },
   {
     order: 21,
-    title: "3-2",
+    title: "Fairy Fountain",
     ident: "3-2",
     artist: "Lyzerus",
     artistImageOverride: "",
@@ -458,7 +458,7 @@ var castleAreas = [
   },
   {
     order: 22,
-    title: "3-3",
+    title: "Witch's Hut",
     ident: "3-3",
     artist: "Daizha",
     artistImageOverride: "",
@@ -530,7 +530,7 @@ var castleAreas = [
   },
   {
     order: 25,
-    title: "Kanalet Castle",
+    title: "Kanalet Castle 2",
     ident: "3-6",
     artist: "unsilentwill",
     artistImageOverride: "",
@@ -578,7 +578,7 @@ var castleAreas = [
   },
   {
     order: 37,
-    title: "4-1",
+    title: "Mysterious Forest 2",
     ident: "4-1",
     artist: "NekoCrocodile",
     artistImageOverride: "",
@@ -602,7 +602,7 @@ var castleAreas = [
   },
   {
     order: 38,
-    title: "4-2",
+    title: "Mysterious Forest 3",
     ident: "4-2",
     artist: "NOP",
     artistImageOverride: "",
@@ -674,7 +674,7 @@ var castleAreas = [
   },
   {
     order: 42,
-    title: "Kanalet Castle",
+    title: "Kanalet Castle 3",
     ident: "4-5",
     artist: "Ota",
     artistImageOverride: "",
@@ -698,7 +698,7 @@ var castleAreas = [
   },
   {
     order: 43,
-    title: "Kanalet Castle",
+    title: "Kanalet Castle 4",
     ident: "4-6",
     artist: "DeviFoxx",
     artistImageOverride: "",
