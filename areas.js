@@ -1034,7 +1034,7 @@ var castleAreas = [
   },
   {
     order: 63,
-    title: "6-4",
+    title: "Ukuku Prairie Lake",
     ident: "6-4",
     artist: "Normal_Neighbor",
     artistImageOverride: "",
