@@ -379,7 +379,7 @@ var castleAreas = [
       height: null
     },
     pan: "horizontal",
-    type: "castle",
+    type: "terrace",
     zoom: 2,
     teleporters: [],
     post_url: ""
@@ -482,7 +482,7 @@ var castleAreas = [
   },
   {
     order: 23,
-    title: "3-4",
+    title: "Spooky Woods",
     ident: "3-4",
     artist: "PotatoCheep",
     artistImageOverride: "",
@@ -499,7 +499,7 @@ var castleAreas = [
       height: null
     },
     pan: "horizontal",
-    type: "terrace",
+    type: "underground",
     zoom: 2,
     teleporters: [],
     post_url: ""
@@ -523,7 +523,7 @@ var castleAreas = [
       height: null
     },
     pan: "horizontal",
-    type: "terrace",
+    type: "castle",
     zoom: 2,
     teleporters: [],
     post_url: ""
@@ -547,7 +547,7 @@ var castleAreas = [
       height: null
     },
     pan: "horizontal",
-    type: "terrace",
+    type: "castle",
     zoom: 2,
     teleporters: [],
     post_url: ""
@@ -650,7 +650,7 @@ var castleAreas = [
   },
   {
     order: 40,
-    title: "4-4",
+    title: "Color Dungeon",
     ident: "4-4",
     artist: "Anima_nel",
     artistImageOverride: "",
@@ -914,7 +914,7 @@ var castleAreas = [
   },
   {
     order: 54,
-    title: "Face Shrine",
+    title: "Northern Face Shrine",
     ident: "5-7",
     artist: "AtticusFinn",
     artistImageOverride: "",
@@ -1010,7 +1010,7 @@ var castleAreas = [
   },
   {
     order: 62,
-    title: "6-3",
+    title: "Tail Cave",
     ident: "6-3",
     artist: "Pkdotts",
     artistImageOverride: "",
@@ -1202,7 +1202,7 @@ var castleAreas = [
   },
   {
     order: 71,
-    title: "7-3",
+    title: "Signpost Maze",
     ident: "7-3",
     artist: "Alwore",
     artistImageOverride: "",
@@ -1219,14 +1219,14 @@ var castleAreas = [
       height: null
     },
     pan: "horizontal",
-    type: "castle",
+    type: "terrace",
     zoom: 2,
     teleporters: [],
     post_url: ""
   },
   {
     order: 72,
-    title: "7-4",
+    title: "Richard's Villa",
     ident: "7-4",
     artist: "Atcero",
     artistImageOverride: "",
@@ -1243,14 +1243,14 @@ var castleAreas = [
       height: null
     },
     pan: "horizontal",
-    type: "boss",
+    type: "town",
     zoom: 2,
     teleporters: [],
     post_url: ""
   },
   {
     order: 73,
-    title: "7-5",
+    title: "Catfish's Maw",
     ident: "7-5",
     artist: "Zushi3DHero",
     artistImageOverride: "",
@@ -1267,14 +1267,14 @@ var castleAreas = [
       height: null
     },
     pan: "horizontal",
-    type: "boss",
+    type: "dungeon",
     zoom: 2,
     teleporters: [],
     post_url: ""
   },
   {
     order: 74,
-    title: "7-6",
+    title: "Martha's Bay",
     ident: "7-6",
     artist: "Emmazapan",
     artistImageOverride: "",
@@ -1291,7 +1291,7 @@ var castleAreas = [
       height: null
     },
     pan: "horizontal",
-    type: "boss",
+    type: "terrace",
     zoom: 2,
     teleporters: [],
     post_url: ""
@@ -1322,7 +1322,7 @@ var castleAreas = [
   },
   {
     order: 76,
-    title: "7-8",
+    title: "Yarna Desert",
     ident: "7-8",
     artist: "Crowno",
     artistImageOverride: "",
@@ -1339,14 +1339,14 @@ var castleAreas = [
       height: null
     },
     pan: "horizontal",
-    type: "boss",
+    type: "desert",
     zoom: 2,
     teleporters: [],
     post_url: ""
   },
   {
     order: 76,
-    title: "8-1",
+    title: "Toronbo Shores",
     ident: "8-1",
     artist: "Dewndeym",
     artistImageOverride: "",
@@ -1363,14 +1363,14 @@ var castleAreas = [
       height: null
     },
     pan: "horizontal",
-    type: "boss",
+    type: "beach",
     zoom: 2,
     teleporters: [],
     post_url: ""
   },
   {
     order: 76,
-    title: "8-2",
+    title: "Toronbo Shores 2",
     ident: "8-2",
     artist: "Dewndeym",
     artistImageOverride: "",
@@ -1387,14 +1387,14 @@ var castleAreas = [
       height: null
     },
     pan: "horizontal",
-    type: "boss",
+    type: "beach",
     zoom: 2,
     teleporters: [],
     post_url: ""
   },
   {
     order: 76,
-    title: "8-3",
+    title: "Toronbo Shores 3",
     ident: "8-3",
     artist: "Yokaiy",
     artistImageOverride: "",
@@ -1411,7 +1411,7 @@ var castleAreas = [
       height: null
     },
     pan: "horizontal",
-    type: "boss",
+    type: "beach",
     zoom: 2,
     teleporters: [],
     post_url: ""
@@ -1514,7 +1514,7 @@ var castleAreas = [
   },
   {
     order: 76,
-    title: "8-8",
+    title: "Yarna Desert 2",
     ident: "8-8",
     artist: "HadianK",
     artistImageOverride: "",
@@ -1531,7 +1531,7 @@ var castleAreas = [
       height: null
     },
     pan: "horizontal",
-    type: "boss",
+    type: "desert",
     zoom: 2,
     teleporters: [],
     post_url: ""
@@ -1545,7 +1545,7 @@ var castleAreas = [
     url: "https://linktr.ee/nekocrocodile",
     animation: false,
     point: {
-      x: 1290,
+      x: 1270,
       y: 2608
     },
     offset: {
@@ -1593,7 +1593,7 @@ var castleAreas = [
     url: "",
     animation: false,
     point: {
-      x: 1290,
+      x: 1270,
       y: 2768
     },
     offset: {
@@ -1617,7 +1617,7 @@ var castleAreas = [
     url: "https://bsky.app/profile/ratazart.bsky.social",
     animation: false,
     point: {
-      x: 1290,
+      x: 1270,
       y: 2448
     },
     offset: {
@@ -1785,7 +1785,7 @@ var castleAreas = [
     url: "https://linktr.ee/blindeduif",
     animation: false,
     point: {
-      x: 1530,
+      x: 1490,
       y: 2448
     },
     offset: {
@@ -1809,7 +1809,7 @@ var castleAreas = [
     url: "https://twitter.com/scribulls",
     animation: false,
     point: {
-      x: 1730,
+      x: 1685,
       y: 2448
     },
     offset: {
@@ -1833,7 +1833,7 @@ var castleAreas = [
     url: "https://linktr.ee/wilperi",
     animation: false,
     point: {
-      x: 1930,
+      x: 1880,
       y: 2448
     },
     offset: {
@@ -1857,7 +1857,7 @@ var castleAreas = [
     url: "https://linktr.ee/blindeduif",
     animation: false,
     point: {
-      x: 2130,
+      x: 2065,
       y: 2448
     },
     offset: {
@@ -1881,7 +1881,7 @@ var castleAreas = [
     url: "https://twitter.com/RomanoOjea",
     animation: false,
     point: {
-      x: 2330,
+      x: 2255,
       y: 2448
     },
     offset: {
@@ -1905,7 +1905,7 @@ var castleAreas = [
     url: "https://x.com/StrawPact",
     animation: false,
     point: {
-      x: 2530,
+      x: 2448,
       y: 2448
     },
     offset: {

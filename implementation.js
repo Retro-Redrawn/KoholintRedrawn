@@ -28,6 +28,7 @@ var redrawnLayers = [
 ];
 
 /** Biome Data (Screen icons) */
+// see icon list here >> https://fonts.google.com/icons
 var biomes = [
     {
         name: "Terrace",
@@ -51,7 +52,7 @@ var biomes = [
         name: "Town",
         ident: "town",
         iconId: "house",
-        color: 'rgb(114 79 52)',
+        color: 'rgb(150 90 45)',
     },
     {
         name: "Dungeon",
@@ -84,5 +85,16 @@ var biomes = [
         iconId: "forest",
         color: 'rgb(30 120 80)',
     },
-    
+    {
+        name: "Desert",
+        ident: "desert",
+        iconId: "water_lux",
+        color: 'rgb(240 170 30)',
+    },
+    {
+        name: "Beach",
+        ident: "beach",
+        iconId: "beach_access",
+        color: 'rgb(255 200 60)',
+    },
 ];
