@@ -388,7 +388,7 @@ var castleAreas = [
     order: 17,
     title: "Rapid Ride Shop",
     ident: "2-8",
-    artist: "Darth_Scorpion84",
+    artist: "Darth_Scorpion",
     artistImageOverride: "",
     url: "https://darkscorpion19.carrd.co/",
     animation: false,
@@ -818,7 +818,7 @@ var castleAreas = [
   },
   {
     order: 50,
-    title: "5-3",
+    title: "Ukuku Prairie Warp",
     ident: "5-3",
     artist: "Woodspixl",
     artistImageOverride: "",
@@ -842,7 +842,7 @@ var castleAreas = [
   },
   {
     order: 51,
-    title: "5-4",
+    title: "Pothole Field",
     ident: "5-4",
     artist: "Tanu",
     artistImageOverride: "",
@@ -1370,7 +1370,7 @@ var castleAreas = [
   },
   {
     order: 76,
-    title: "Toronbo Shores 2",
+    title: "Sale's House o' Bananas",
     ident: "8-2",
     artist: "Dewndeym",
     artistImageOverride: "",
@@ -1394,7 +1394,7 @@ var castleAreas = [
   },
   {
     order: 76,
-    title: "Toronbo Shores 3",
+    title: "Toronbo Shores 2",
     ident: "8-3",
     artist: "Yokaiy",
     artistImageOverride: "",
@@ -1418,7 +1418,7 @@ var castleAreas = [
   },
   {
     order: 76,
-    title: "8-4",
+    title: "Ghost's House",
     ident: "8-4",
     artist: "Brando",
     artistImageOverride: "",
@@ -1435,14 +1435,14 @@ var castleAreas = [
       height: null
     },
     pan: "horizontal",
-    type: "boss",
+    type: "terrace",
     zoom: 2,
     teleporters: [],
     post_url: ""
   },
   {
     order: 76,
-    title: "8-5",
+    title: "Martha's Bay Phonebooth",
     ident: "8-5",
     artist: "BTdangelo",
     artistImageOverride: "https://linktr.ee/btdangelo",
@@ -1459,14 +1459,14 @@ var castleAreas = [
       height: null
     },
     pan: "horizontal",
-    type: "boss",
+    type: "terrace",
     zoom: 2,
     teleporters: [],
     post_url: ""
   },
   {
     order: 76,
-    title: "8-6",
+    title: "Martha's Bay 2",
     ident: "8-6",
     artist: "BTdangelo",
     artistImageOverride: "",
@@ -1483,14 +1483,14 @@ var castleAreas = [
       height: null
     },
     pan: "horizontal",
-    type: "boss",
+    type: "terrace",
     zoom: 2,
     teleporters: [],
     post_url: ""
   },
   {
     order: 76,
-    title: "8-7",
+    title: "Animal Village Warp",
     ident: "8-7",
     artist: "Agua Hervida",
     artistImageOverride: "",
@@ -1507,7 +1507,7 @@ var castleAreas = [
       height: null
     },
     pan: "horizontal",
-    type: "boss",
+    type: "terrace",
     zoom: 2,
     teleporters: [],
     post_url: ""
