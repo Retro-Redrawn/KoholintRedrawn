@@ -6,7 +6,7 @@
 *   Contains implementation data specific to a Redrawn project.
 *
 *   by Tyson Moll (vvvvvvv), 2023.
-*
+*   I touched this too >_> Blinde
 */
 
 // Directories
@@ -22,7 +22,7 @@ var activeLayerIndex = 0;           // Currently active layer index (and initial
 var redrawnLayers = [
     {
         name: "game", //foldername?
-        canvasSize: {width: 10000, height: 2096},
+        canvasSize: {width: 2655, height: 3400},
         areas: castleAreas
     }
 ];
@@ -96,5 +96,11 @@ var biomes = [
         ident: "beach",
         iconId: "beach_access",
         color: 'rgb(255 200 60)',
+    },
+    {
+        name: "Surfing",
+        ident: "surfing",
+        iconId: "surfing",
+        color: 'rgb(20 80 160)',
     },
 ];

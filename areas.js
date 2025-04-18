@@ -386,7 +386,7 @@ var castleAreas = [
   },
   {
     order: 17,
-    title: "Papid Raids",
+    title: "Rapid Ride Shop",
     ident: "2-8",
     artist: "Darth_Scorpion84",
     artistImageOverride: "",
@@ -458,7 +458,7 @@ var castleAreas = [
   },
   {
     order: 22,
-    title: "Witch's Hut",
+    title: "Crazy Tracy's Health Spa",
     ident: "3-3",
     artist: "Daizha",
     artistImageOverride: "",
@@ -475,14 +475,14 @@ var castleAreas = [
       height: null
     },
     pan: "horizontal",
-    type: "terrace",
+    type: "town",
     zoom: 2,
     teleporters: [],
     post_url: ""
   },
   {
     order: 23,
-    title: "Spooky Woods",
+    title: "Tabahl Wasteland",
     ident: "3-4",
     artist: "PotatoCheep",
     artistImageOverride: "",
@@ -554,7 +554,7 @@ var castleAreas = [
   },
   {
     order: 26,
-    title: "3-7",
+    title: "Rapid Ride",
     ident: "3-7",
     artist: "Kenchinator",
     artistImageOverride: "",
@@ -571,7 +571,7 @@ var castleAreas = [
       height: null
     },
     pan: "horizontal",
-    type: "terrace",
+    type: "surfing",
     zoom: 2,
     teleporters: [],
     post_url: ""
@@ -626,7 +626,7 @@ var castleAreas = [
   },
   {
     order: 39,
-    title: "4-3",
+    title: "Witchs Hut",
     ident: "4-3",
     artist: "Mikel",
     artistImageOverride: "",
@@ -722,7 +722,7 @@ var castleAreas = [
   },
   {
     order: 44,
-    title: "4-7",
+    title: "Rapid Ride 2",
     ident: "4-7",
     artist: "",
     artistImageOverride: "",
@@ -739,14 +739,14 @@ var castleAreas = [
       height: null
     },
     pan: "horizontal",
-    type: "castle",
+    type: "surfing",
     zoom: 2,
     teleporters: [],
     post_url: ""
   },
   {
     order: 45,
-    title: "4-8",
+    title: "Rapid Ride 3",
     ident: "4-8",
     artist: "Jenny",
     artistImageOverride: "",
@@ -763,7 +763,7 @@ var castleAreas = [
       height: null
     },
     pan: "horizontal",
-    type: "terrace",
+    type: "surfing",
     zoom: 2,
     teleporters: [],
     post_url: ""
@@ -938,7 +938,7 @@ var castleAreas = [
   },
   {
     order: 55,
-    title: "5-8",
+    title: "Shrine Waterfall",
     ident: "5-8",
     artist: "Ghoullee",
     artistImageOverride: "RobinQuinn",
@@ -955,7 +955,7 @@ var castleAreas = [
       height: null
     },
     pan: "horizontal",
-    type: "castle",
+    type: "terrace",
     zoom: 2,
     teleporters: [],
     post_url: ""
@@ -1010,7 +1010,7 @@ var castleAreas = [
   },
   {
     order: 62,
-    title: "Tail Cave",
+    title: "Key Cavern",
     ident: "6-3",
     artist: "Pkdotts",
     artistImageOverride: "",
@@ -1058,7 +1058,7 @@ var castleAreas = [
   },
   {
     order: 64,
-    title: "6-5",
+    title: "Ukuku Prairie",
     ident: "6-5",
     artist: "Klardonics",
     artistImageOverride: "",
@@ -1082,7 +1082,7 @@ var castleAreas = [
   },
   {
     order: 65,
-    title: "6-6",
+    title: "Ukuku Prairie 2",
     ident: "6-6",
     artist: "GlitchedPie",
     artistImageOverride: "",
@@ -1130,7 +1130,7 @@ var castleAreas = [
   },
   {
     order: 67,
-    title: "6-8",
+    title: "Ruins",
     ident: "6-8",
     artist: "Rundt",
     artistImageOverride: "",
@@ -1154,7 +1154,7 @@ var castleAreas = [
   },
   {
     order: 69,
-    title: "7-1",
+    title: "Beach trail",
     ident: "7-1",
     artist: "SamtheSalmon",
     artistImageOverride: "",
@@ -1178,7 +1178,7 @@ var castleAreas = [
   },
   {
     order: 70,
-    title: "7-2",
+    title: "Tail Cave",
     ident: "7-2",
     artist: "SamtheSalmon",
     artistImageOverride: "",
