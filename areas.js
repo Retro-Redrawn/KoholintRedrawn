@@ -266,7 +266,7 @@ var castleAreas = [
   },
   {
     order: 13,
-    title: "Battle Groto",
+    title: "Battle Grotto",
     ident: "2-3",
     artist: "Lyzerus",
     artistImageOverride: "",
