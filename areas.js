@@ -20,7 +20,7 @@ var castleAreas = [
     },
     pan: "horizontal",
     type: "dungeon",
-    zoom: 2,
+    zoom: 3,
     teleporters: [],
     post_url: ""
   },
@@ -44,7 +44,7 @@ var castleAreas = [
     },
     pan: "horizontal",
     type: "mountain",
-    zoom: 2,
+    zoom: 3,
     teleporters: [],
     post_url: ""
   },
