@@ -122,30 +122,6 @@ var castleAreas = [
   },
   {
     order: 6,
-    title: "Tal Tal Mountain Range 4",
-    ident: "1-6",
-    artist: "Brando",
-    artistImageOverride: "",
-    url: "https://linktr.ee/brandoparm",
-    animation: false,
-    point: {
-      x: 1330,
-      y: 300
-    },
-    offset: {
-      x: null,
-      y: null,
-      width: null,
-      height: null
-    },
-    pan: "horizontal",
-    type: "mountain",
-    zoom: 2,
-    teleporters: [],
-    post_url: ""
-  },
-  {
-    order: 6,
     title: "Tal Tal Mountain Range 5",
     ident: "1-7",
     artist: "Darth_Scorpion",
@@ -1345,7 +1321,7 @@ var castleAreas = [
     post_url: ""
   },
   {
-    order: 76,
+    order: 77,
     title: "Toronbo Shores",
     ident: "8-1",
     artist: "Dewndeym",
@@ -1369,12 +1345,12 @@ var castleAreas = [
     post_url: ""
   },
   {
-    order: 76,
+    order: 78,
     title: "Sale's House o' Bananas",
     ident: "8-2",
     artist: "Dewndeym",
     artistImageOverride: "",
-    url: "",
+    url: "https://twitter.com/Dewndeym",
     animation: false,
     point: {
       x: 370,
@@ -1393,7 +1369,7 @@ var castleAreas = [
     post_url: ""
   },
   {
-    order: 76,
+    order: 79,
     title: "Toronbo Shores 2",
     ident: "8-3",
     artist: "Yokaiy",
@@ -1417,7 +1393,7 @@ var castleAreas = [
     post_url: ""
   },
   {
-    order: 76,
+    order: 80,
     title: "Ghost's House",
     ident: "8-4",
     artist: "Brando",
@@ -1441,7 +1417,7 @@ var castleAreas = [
     post_url: ""
   },
   {
-    order: 76,
+    order: 81,
     title: "Martha's Bay Phonebooth",
     ident: "8-5",
     artist: "BTdangelo",
@@ -1465,7 +1441,7 @@ var castleAreas = [
     post_url: ""
   },
   {
-    order: 76,
+    order: 82,
     title: "Martha's Bay 2",
     ident: "8-6",
     artist: "BTdangelo",
@@ -1489,7 +1465,7 @@ var castleAreas = [
     post_url: ""
   },
   {
-    order: 76,
+    order: 83,
     title: "Animal Village Warp",
     ident: "8-7",
     artist: "Agua Hervida",
@@ -1513,7 +1489,7 @@ var castleAreas = [
     post_url: ""
   },
   {
-    order: 76,
+    order: 84,
     title: "Yarna Desert 2",
     ident: "8-8",
     artist: "HadianK",
@@ -1537,7 +1513,7 @@ var castleAreas = [
     post_url: ""
   },
   {
-    order: 73,
+    order: 85,
     title: "Ending",
     ident: "END",
     artist: "Nekocrocodile",
@@ -1561,7 +1537,7 @@ var castleAreas = [
     post_url: ""
   },
   {
-    order: 74,
+    order: 86,
     title: "Koholint Redrawn",
     ident: "0-1",
     artist: "Blindeduif",
@@ -1585,7 +1561,7 @@ var castleAreas = [
     post_url: ""
   },
   {
-    order: 75,
+    order: 87,
     title: "Windfish",
     ident: "windfish",
     artist: "unsilentwill",
@@ -1609,7 +1585,7 @@ var castleAreas = [
     post_url: ""
   },
   {
-    order: 76,
+    order: 88,
     title: "Mural",
     ident: "mural",
     artist: "Rata",
@@ -1633,7 +1609,7 @@ var castleAreas = [
     post_url: ""
   },
   {
-    order: 77,
+    order: 89,
     title: "Armos Knight",
     ident: "bossarmor",
     artist: "Zaebucca",
@@ -1657,7 +1633,7 @@ var castleAreas = [
     post_url: ""
   },
   {
-    order: 78,
+    order: 90,
     title: "Moldorm",
     ident: "boss1",
     artist: "NormalNeighbor",
@@ -1681,7 +1657,7 @@ var castleAreas = [
     post_url: ""
   },
   {
-    order: 79,
+    order: 91,
     title: "Genie",
     ident: "boss2",
     artist: "PotatoCheep",
@@ -1705,7 +1681,7 @@ var castleAreas = [
     post_url: ""
   },
   {
-    order: 80,
+    order: 92,
     title: "Slime Eye",
     ident: "boss3",
     artist: "Lamington",
@@ -1729,7 +1705,7 @@ var castleAreas = [
     post_url: ""
   },
   {
-    order: 81,
+    order: 93,
     title: "Angler Fish",
     ident: "boss4",
     artist: "Yokaiy",
@@ -1753,7 +1729,7 @@ var castleAreas = [
     post_url: ""
   },
   {
-    order: 82,
+    order: 94,
     title: "Slime Eel",
     ident: "boss5",
     artist: "Lyzerus",
@@ -1777,7 +1753,7 @@ var castleAreas = [
     post_url: ""
   },
   {
-    order: 83,
+    order: 95,
     title: "Facade",
     ident: "boss6",
     artist: "Blindeduif",
@@ -1801,7 +1777,7 @@ var castleAreas = [
     post_url: ""
   },
   {
-    order: 84,
+    order: 96,
     title: "Evil Eagle",
     ident: "boss7",
     artist: "Daizha",
@@ -1825,7 +1801,7 @@ var castleAreas = [
     post_url: ""
   },
   {
-    order: 85,
+    order: 97,
     title: "Hot Head",
     ident: "boss8",
     artist: "Wilperi",
@@ -1849,7 +1825,7 @@ var castleAreas = [
     post_url: ""
   },
   {
-    order: 86,
+    order: 98,
     title: "Shadow Aghinium",
     ident: "boss9",
     artist: "Blindeduif",
@@ -1873,7 +1849,7 @@ var castleAreas = [
     post_url: ""
   },
   {
-    order: 87,
+    order: 99,
     title: "Shadow Ganon",
     ident: "boss10",
     artist: "Mikel",
@@ -1897,7 +1873,7 @@ var castleAreas = [
     post_url: ""
   },
   {
-    order: 88,
+    order: 100,
     title: "Shadow Nightmare",
     ident: "boss11",
     artist: "StrawBe",
@@ -1921,7 +1897,7 @@ var castleAreas = [
     post_url: ""
   },
   {
-    order: 89,
+    order: 101,
     title: "Intro",
     ident: "intro",
     artist: "Ota",
@@ -1945,7 +1921,7 @@ var castleAreas = [
     post_url: ""
   },
   {
-    order: 90,
+    order: 102,
     title: "Menu",
     ident: "menu",
     artist: "M3ch4 N1nj4",
