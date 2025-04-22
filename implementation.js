@@ -88,7 +88,7 @@ var biomes = [
     {
         name: "Desert",
         ident: "desert",
-        iconId: "water_lux",
+        iconId: "sunny",
         color: 'rgb(240 170 30)',
     },
     {
