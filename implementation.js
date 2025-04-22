@@ -58,14 +58,14 @@ var biomes = [
         name: "Dungeon",
         ident: "dungeon",
         iconId: "music_note",
-        color: 'rgb(129 28 56)',
+        color: 'rgb(180 60 90)',
     },
 
     {
         name: "Boss",
         ident: "boss",
         iconId: "dark_mode",
-        color: 'rgb(129 28 56)',
+        color: 'rgb(110 25 40)',
     },
     {
         name: "Other",
