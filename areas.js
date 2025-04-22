@@ -170,7 +170,7 @@ var castleAreas = [
   },
   {
     order: 10,
-    title: "Eagle's Tower",
+    title: "Eagles Tower",
     ident: "1-9",
     artist: "DonFastidius",
     artistImageOverride: "",
@@ -1346,7 +1346,7 @@ var castleAreas = [
   },
   {
     order: 78,
-    title: "Sale's House o' Bananas",
+    title: "Sales  House o Bananas",
     ident: "8-2",
     artist: "Dewndeym",
     artistImageOverride: "",
