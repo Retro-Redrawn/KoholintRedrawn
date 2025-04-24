@@ -1416,30 +1416,7 @@ var castleAreas = [
     teleporters: [],
     post_url: ""
   },
-  {
-    order: 81,
-    title: "Martha's Bay Phonebooth",
-    ident: "8-5",
-    artist: "BTdangelo",
-    artistImageOverride: "",
-    url: "https://linktr.ee/btdangelo",
-    animation: false,
-    point: {
-      x: 1330,
-      y: 2092
-    },
-    offset: {
-      x: null,
-      y: null,
-      width: null,
-      height: null
-    },
-    pan: "horizontal",
-    type: "terrace",
-    zoom: 2,
-    teleporters: [],
-    post_url: ""
-  },
+
   {
     order: 82,
     title: "Martha's Bay 2",
@@ -1449,7 +1426,7 @@ var castleAreas = [
     url: "https://linktr.ee/btdangelo",
     animation: false,
     point: {
-      x: 1650,
+      x: 1490,
       y: 2092
     },
     offset: {
