@@ -700,9 +700,9 @@ var castleAreas = [
     order: 44,
     title: "Rapid Ride 2",
     ident: "4-7",
-    artist: "",
+    artist: "marina",
     artistImageOverride: "",
-    url: "",
+    url: "https://cringe.ovh/",
     animation: false,
     point: {
       x: 1970,
