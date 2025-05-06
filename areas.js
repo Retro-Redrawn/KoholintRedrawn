@@ -170,7 +170,7 @@ var castleAreas = [
   },
   {
     order: 10,
-    title: "Eagles Tower",
+    title: "Eagle\u2019s Tower",
     ident: "1-9",
     artist: "DonFastidius",
     artistImageOverride: "",
@@ -266,7 +266,7 @@ var castleAreas = [
   },
   {
     order: 14,
-    title: "Dampé's Shack",
+    title: `Dampé\u2019s Shack`,
     ident: "2-4",
     artist: "Marina",
     artistImageOverride: "",
@@ -314,7 +314,7 @@ var castleAreas = [
   },
   {
     order: 15,
-    title: "Angler's Tunnel",
+    title: "Angler\u2019s Tunnel",
     ident: "2-6",
     artist: "Rata",
     artistImageOverride: "",
@@ -434,7 +434,7 @@ var castleAreas = [
   },
   {
     order: 22,
-    title: "Crazy Tracy's Health Spa",
+    title: "Crazy Tracy\u2019s Health Spa",
     ident: "3-3",
     artist: "Daizha",
     artistImageOverride: "",
@@ -602,7 +602,7 @@ var castleAreas = [
   },
   {
     order: 39,
-    title: "Witchs Hut",
+    title: "Witch\u2019s Hut",
     ident: "4-3",
     artist: "Mikel",
     artistImageOverride: "",
@@ -1202,7 +1202,7 @@ var castleAreas = [
   },
   {
     order: 72,
-    title: "Richard's Villa",
+    title: "Richard\u2019s Villa",
     ident: "7-4",
     artist: "Atcero",
     artistImageOverride: "",
@@ -1226,7 +1226,7 @@ var castleAreas = [
   },
   {
     order: 73,
-    title: "Catfish's Maw",
+    title: "Catfish\u2019s Maw",
     ident: "7-5",
     artist: "Zushi3DHero",
     artistImageOverride: "",
@@ -1250,7 +1250,7 @@ var castleAreas = [
   },
   {
     order: 74,
-    title: "Martha's Bay",
+    title: "Martha\u2019s Bay",
     ident: "7-6",
     artist: "Emmazapan",
     artistImageOverride: "",
@@ -1346,7 +1346,7 @@ var castleAreas = [
   },
   {
     order: 78,
-    title: "Sales  House o Bananas",
+    title: "Sales\u2019 House o\u2019 Bananas",
     ident: "8-2",
     artist: "Dewndeym",
     artistImageOverride: "",
@@ -1394,7 +1394,7 @@ var castleAreas = [
   },
   {
     order: 80,
-    title: "Ghost's House",
+    title: "Ghost\u2019s House",
     ident: "8-4",
     artist: "Brando",
     artistImageOverride: "",
@@ -1419,7 +1419,7 @@ var castleAreas = [
 
   {
     order: 82,
-    title: "Martha's Bay 2",
+    title: "Martha\u2019s Bay 2",
     ident: "8-6",
     artist: "BTdangelo",
     artistImageOverride: "",
