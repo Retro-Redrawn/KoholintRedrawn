@@ -377,8 +377,8 @@ function setUpAreas () {
             }
             var artistImgPath = artistImgDir + areaArtistImage + artistImgExtension;
         
-            var artistImageHTML = `<a href="${area.url}" target="_blank" title="${area.artist}">
-                <img src="${artistImgPath}" alt="${area.artist}" /></a>`;
+            var artistImageHTML = area.url ? `<a href="${area.url}" target="_blank" title="${area.artist}">
+                <img src="${artistImgPath}" alt="${area.artist}" /></a>` : `<img src="${artistImgPath}" alt="${area.artist}" />`;
         }
         
         // Prepare the HTML block corresponding to an area and its associated credts
@@ -889,9 +889,11 @@ function updateMobileArtist(area) {
         ${area.post_url ? `<a href="${area.post_url}" target="_blank" title="View Post">[View Post]</a>` : ''}
     `;
     var containerImage = document.querySelector('.artist_mobile .area__info__img');
-    var a = document.querySelector('.artist_mobile .area__info__img a');
-    a.href = area.url;
-    a.title = area.artist;
+    var a = document.querySelector('.artist_mobile .area__info__img');
+    a.innerHTML = `
+        ${area.url ? `<a href="${area.url}" target="_blank" title="${area.artist}">
+                <img src="${artistImgPath}" alt="${area.artist}" /></a>` : `<img src="${artistImgPath}" alt="${area.artist}" />`}
+    `;
     var image = document.querySelector('.artist_mobile .area__info__img img');
 
     var areaArtistImage = area.artistImageOverride;
