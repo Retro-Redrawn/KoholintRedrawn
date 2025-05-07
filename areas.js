@@ -917,7 +917,7 @@ var castleAreas = [
     title: "Shrine Waterfall",
     ident: "5-8",
     artist: "Ghoulee",
-    artistImageOverride: "RobinQuinn",
+    artistImageOverride: "",
     url: "https://twitter.com/ghouleebones",
     animation: false,
     point: {
