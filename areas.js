@@ -1493,7 +1493,7 @@ var castleAreas = [
     order: 85,
     title: "Ending",
     ident: "END",
-    artist: "Nekocrocodile",
+    artist: "NekoCrocodile",
     artistImageOverride: "",
     url: "https://linktr.ee/nekocrocodile",
     animation: false,
