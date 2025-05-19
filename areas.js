@@ -964,7 +964,7 @@ var castleAreas = [
     order: 61,
     title: "Mabe Village 4",
     ident: "6-2",
-    artist: "Blind3dbylight",
+    artist: "blind3dbylight",
     artistImageOverride: "",
     url: "https://linktr.ee/blind3dbylight",
     animation: false,
