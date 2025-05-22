@@ -858,6 +858,7 @@ function focusOnArea (a) {
     }
 }
 
+/** Opens an area in the DOM menu of the viewer. */
 function openAreaInDOM (a) {
     var area = a
     if (typeof a === 'string') {
@@ -875,9 +876,12 @@ function openAreaInDOM (a) {
             }       
         }
     }
+    /** Hotfix lockout; needs a fix. See https://github.com/vulture-boy/koholintRedrawn/issues/1 for more information.
     updateMobileArtist(area);
+    */
 }
 
+/** Hotfix lockout; needs a fix. See https://github.com/vulture-boy/koholintRedrawn/issues/1 for more information.
 function updateMobileArtist(area) {
     
     var areaArtist = area.artist.replace('@', '');
@@ -912,6 +916,7 @@ function updateMobileArtist(area) {
         containerImage.style.display = 'none';
     };
 }
+    */
 
 // #region Tour Methods
 
