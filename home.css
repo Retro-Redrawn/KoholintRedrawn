@@ -322,6 +322,9 @@ a{
     width:50px;
     display:block;
 }
+.settings__checkbox{
+    margin: 2px;
+}
 #error{
     color:red;
     font-size:20px;
