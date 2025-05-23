@@ -266,7 +266,7 @@ var castleAreas = [
   },
   {
     order: 14,
-    title: `Dampé\u2019s Shack`,
+    title: `Camera Shop (Dampé\u2019s Shack)`,
     ident: "2-4",
     artist: "Marina",
     artistImageOverride: "",
