@@ -1084,8 +1084,8 @@ var castleAreas = [
     order: 66,
     title: "Southern Face Shrine",
     ident: "6-7",
-    artist: "Aisna",
-    artistImageOverride: "",
+    artist: "Aina",
+    artistImageOverride: "Aisna",
     url: "https://ainasge.carrd.co/",
     animation: true,
     point: {
