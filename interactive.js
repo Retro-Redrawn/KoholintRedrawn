@@ -88,8 +88,9 @@ var redrawsCount = redrawImages.length;    // Total number of redraw layers
 
 // Start up
 loadImages()
-window.addEventListener('wheel', onMouseWheel)
-window.addEventListener('resize', onResize)
+window.addEventListener('wheel', onMouseWheel);
+window.addEventListener('resize', onResize);
+window.addEventListener('keydown', onKeyDown);
 //
 
 /** Loads new & old images pertaining to a single layer.
@@ -958,6 +959,13 @@ function updateMobileArtist(area) {
     };
 }
 
+/** Event occurring when a keyboard key is pressed. */
+function onKeyDown(evt) {
+
+    if (evt.keyCode == 32) { // Space Bar
+        document.querySelector("#mapSelectRedrawn").select();
+    }
+}
 
 // #region Tour Methods
 
