@@ -430,13 +430,13 @@ a{
 }
 .artist_mobile {
     display: flex;
-    position: absolute;
+    position: fixed;
     right: 0;
     bottom: 0;
     width: auto;
     height: 64px;
-    margin: 2%;
-    margin-bottom: 5%;
+    margin: 50px;
+    margin-bottom: 2%;
     background-color: rgba(0, 0, 0, .6);
 }
 
