@@ -435,8 +435,8 @@ a{
     bottom: 0;
     width: auto;
     height: 64px;
-    margin: 5px;
-    margin-bottom: 2%;
+    margin: 2%;
+    margin-bottom: 5%;
     background-color: rgba(0, 0, 0, .6);
 }
 
