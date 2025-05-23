@@ -5,8 +5,11 @@
 *   Frontend data container of the Redrawn Viewer. 
 *   Contains implementation data specific to a Redrawn project.
 *
-*   by Tyson Moll (vvvvvvv), 2023.
-*   I touched this too >_> Blinde
+*   Author: Tyson Moll (vvvvvvv)
+*   
+*   Editors: Blinde
+*
+*   Created in 2023
 */
 
 // Directories

@@ -5,9 +5,11 @@
 *   Backend operations of the Redrawn Viewer. 
 *   Uses Implementation script for data related to a particular implementation.
 *
-*   Originally written by Jerky.
-*   Refactored for reuse by Tyson Moll (vvvvvvv), 2023.
+*   Authors: Jerky, Tyson Moll (vvvvvvv)
 *
+*   Contributors: dodocommando
+*
+*   Created in 2023
 */
 
 // Core
