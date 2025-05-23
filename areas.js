@@ -654,7 +654,7 @@ var castleAreas = [
     ident: "4-5",
     artist: "Ota",
     artistImageOverride: "",
-    url: "https://twitter.com/ota_pixelart",
+    url: "https://linktr.ee/otapxl",
     animation: false,
     point: {
       x: 1330,
