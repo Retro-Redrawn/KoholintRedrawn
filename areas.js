@@ -54,7 +54,7 @@ var castleAreas = [
     ident: "1-3",
     artist: "Juanito",
     artistImageOverride: "",
-    url: "https://twitter.com/juanitomedinart",
+    url: "https://x.com/juanitomedinart",
     animation: true,
     point: {
       x: 530,
@@ -78,7 +78,7 @@ var castleAreas = [
     ident: "1-4",
     artist: "WukongJr",
     artistImageOverride: "",
-    url: "https://twitter.com/WuKongJr_Art",
+    url: "https://x.com/WuKongJr_Art",
     animation: false,
     point: {
       x: 1010,
@@ -220,7 +220,7 @@ var castleAreas = [
     order: 12,
     title: "Goponga Swamp",
     ident: "2-2",
-    artist: "Pikethorn",
+    artist: "Pikethorne",
     artistImageOverride: "",
     url: "https://www.pikethorne.net/",
     animation: false,
@@ -318,7 +318,7 @@ var castleAreas = [
     ident: "2-6",
     artist: "Rata",
     artistImageOverride: "",
-    url: "http://twitter.com/ratariasart",
+    url: "http://x.com/ratariasart",
     animation: false,
     point: {
       x: 1650,
@@ -390,7 +390,7 @@ var castleAreas = [
     ident: "3-1",
     artist: "M3ch4 N1nj4",
     artistImageOverride: "",
-    url: "https://twitter.com/m3ch4n1nj4?s=21&t=xhqPJRlpo2Xbp06uYJKdnA",
+    url: "https://bsky.app/profile/m3ch4n1nj4.bsky.social",
     animation: false,
     point: {
       x: 50,
@@ -414,7 +414,7 @@ var castleAreas = [
     ident: "3-2",
     artist: "Lyzerus",
     artistImageOverride: "",
-    url: "https://twitter.com/AaronLyzerus",
+    url: "https://x.com/AaronLyzerus",
     animation: false,
     point: {
       x: 370,
@@ -438,7 +438,7 @@ var castleAreas = [
     ident: "3-3",
     artist: "Daizha",
     artistImageOverride: "",
-    url: "https://twitter.com/scribulls",
+    url: "https://x.com/scribulls",
     animation: true,
     point: {
       x: 690,
@@ -462,7 +462,7 @@ var castleAreas = [
     ident: "3-4",
     artist: "PotatoCheep",
     artistImageOverride: "",
-    url: "https://twitter.com/generic_most",
+    url: "https://x.com/generic_most",
     animation: false,
     point: {
       x: 1010,
@@ -582,7 +582,7 @@ var castleAreas = [
     ident: "4-2",
     artist: "NOP",
     artistImageOverride: "",
-    url: "https://twitter.com/NOP_Pixels",
+    url: "https://x.com/NOP_Pixels",
     animation: true,
     point: {
       x: 370,
@@ -630,7 +630,7 @@ var castleAreas = [
     ident: "4-4",
     artist: "Anima_nel",
     artistImageOverride: "",
-    url: "https://twitter.com/Anima_nel",
+    url: "https://x.com/Anima_nel",
     animation: false,
     point: {
       x: 1010,
@@ -678,7 +678,7 @@ var castleAreas = [
     ident: "4-6",
     artist: "DeviFoxx",
     artistImageOverride: "",
-    url: "",
+    url: "https://bsky.app/profile/devifoxx.bsky.social",
     animation: false,
     point: {
       x: 1650,
@@ -918,7 +918,7 @@ var castleAreas = [
     ident: "5-8",
     artist: "Ghoulee",
     artistImageOverride: "",
-    url: "https://twitter.com/ghouleebones",
+    url: "https://x.com/ghouleebones",
     animation: false,
     point: {
       x: 2290,
@@ -1062,7 +1062,7 @@ var castleAreas = [
     ident: "6-6",
     artist: "GlitchedPie",
     artistImageOverride: "",
-    url: "https://twitter.com/PieGlitched",
+    url: "https://x.com/PieGlitched",
     animation: false,
     point: {
       x: 1650,
@@ -1085,7 +1085,7 @@ var castleAreas = [
     title: "Southern Face Shrine",
     ident: "6-7",
     artist: "Aina",
-    artistImageOverride: "Aisna",
+    artistImageOverride: "",
     url: "https://ainasge.carrd.co/",
     animation: true,
     point: {
@@ -1134,7 +1134,7 @@ var castleAreas = [
     ident: "7-1",
     artist: "SamtheSalmon",
     artistImageOverride: "",
-    url: "https://twitter.com/tonyredmer",
+    url: "https://x.com/SamThe_Salmon",
     animation: false,
     point: {
       x: 50,
@@ -1158,7 +1158,7 @@ var castleAreas = [
     ident: "7-2",
     artist: "SamtheSalmon",
     artistImageOverride: "",
-    url: "https://twitter.com/ratariasart",
+    url: "https://x.com/ratariasart",
     animation: false,
     point: {
       x: 370,
@@ -1326,7 +1326,7 @@ var castleAreas = [
     ident: "8-1",
     artist: "Dewndeym",
     artistImageOverride: "",
-    url: "https://twitter.com/Dewndeym",
+    url: "https://x.com/Dewndeym",
     animation: false,
     point: {
       x: 50,
@@ -1350,7 +1350,7 @@ var castleAreas = [
     ident: "8-2",
     artist: "Dewndeym",
     artistImageOverride: "",
-    url: "https://twitter.com/Dewndeym",
+    url: "https://x.com/Dewndeym",
     animation: false,
     point: {
       x: 370,
@@ -1374,7 +1374,7 @@ var castleAreas = [
     ident: "8-3",
     artist: "Yokaiy",
     artistImageOverride: "",
-    url: "https://twitter.com/yoYokaiy",
+    url: "https://x.com/yoYokaiy",
     animation: false,
     point: {
       x: 690,
@@ -1446,7 +1446,7 @@ var castleAreas = [
     title: "Animal Village Warp",
     ident: "8-7",
     artist: "Agua Hervida",
-    artistImageOverride: "",
+    artistImageOverride: "AguaHervida",
     url: "https://linktr.ee/AguaHervida",
     animation: false,
     point: {
@@ -1471,7 +1471,7 @@ var castleAreas = [
     ident: "8-8",
     artist: "HadianK",
     artistImageOverride: "",
-    url: "https://twitter.com/HaddianK",
+    url: "https://x.com/HaddianK",
     animation: false,
     point: {
       x: 2290,
@@ -1615,7 +1615,7 @@ var castleAreas = [
     ident: "boss1",
     artist: "Normal_Neighbor",
     artistImageOverride: "",
-    url: "https://twitter.com/PixelNeighbor",
+    url: "https://x.com/PixelNeighbor",
     animation: false,
     point: {
       x: 250,
@@ -1639,7 +1639,7 @@ var castleAreas = [
     ident: "boss2",
     artist: "PotatoCheep",
     artistImageOverride: "",
-    url: "https://twitter.com/generic_most",
+    url: "https://x.com/generic_most",
     animation: false,
     point: {
       x: 450,
@@ -1663,7 +1663,7 @@ var castleAreas = [
     ident: "boss3",
     artist: "Lamington",
     artistImageOverride: "",
-    url: "https://twitter.https://linktr.ee/lamington/generic_most",
+    url: "https://linktr.ee/lamington/generic_most",
     animation: false,
     point: {
       x: 650,
@@ -1711,7 +1711,7 @@ var castleAreas = [
     ident: "boss5",
     artist: "Lyzerus",
     artistImageOverride: "",
-    url: "https://twitter.com/AaronLyzerus",
+    url: "https://x.com/AaronLyzerus",
     animation: false,
     point: {
       x: 1050,
@@ -1759,7 +1759,7 @@ var castleAreas = [
     ident: "boss7",
     artist: "Daizha",
     artistImageOverride: "",
-    url: "https://twitter.com/scribulls",
+    url: "https://x.com/scribulls",
     animation: false,
     point: {
       x: 1685,
@@ -1831,7 +1831,7 @@ var castleAreas = [
     ident: "boss10",
     artist: "Mikel",
     artistImageOverride: "",
-    url: "https://twitter.com/RomanoOjea",
+    url: "https://x.com/RomanoOjea",
     animation: false,
     point: {
       x: 2255,
@@ -1902,7 +1902,7 @@ var castleAreas = [
     title: "Menu",
     ident: "menu",
     artist: "M3ch4 N1nj4",
-    artistImageOverride: "",
+    artistImageOverride: "M3ch4N1nj4",
     url: "https://bsky.app/profile/m3ch4n1nj4.bsky.social",
     animation: false,
     point: {
