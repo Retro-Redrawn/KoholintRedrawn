@@ -17,6 +17,11 @@ var app = null;
 var loading = true; // Whether data is being loaded (e.g. images)
 var layersLoaded = 0;
 
+// Directories
+var artistImgDir = "https://vulture-boy.github.io/Retro-Redrawn-Data/avatars/";
+var artistImgExtension = '.png';  // Image extension for artist images.
+// (having JavaScript self-determine if an image exists without a particular extension is difficult)
+
 // Navigation
 var zoomLevel = 1; // must be whole number
 var zoomMin = 0.25;

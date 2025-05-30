@@ -6,16 +6,9 @@
 *   Contains implementation data specific to a Redrawn project.
 *
 *   Author: Tyson Moll (vvvvvvv)
-*   
-*   Editors: Blinde
 *
 *   Created in 2023
 */
-
-// Directories
-var artistImgDir = "https://vulture-boy.github.io/Retro-Redrawn-Data/avatars/";
-var artistImgExtension = '.png';  // Image extension for artist images.
-// (having JavaScript self-determine if an image exists without a particular extension is difficult)
 
 // Audio
 var bgmTrack = null;
@@ -24,14 +17,17 @@ var bgmTrack = null;
 var activeLayerIndex = 0;           // Currently active layer index (and initial index)
 var redrawnLayers = [
     {
-        name: "game", //foldername?
+        name: "game", // name of folder containing screens for a layer
         canvasSize: {width: 2655, height: 3400},
         areas: castleAreas
     }
 ];
 
-/** Biome Data (Screen icons) */
-// see icon list here >> https://fonts.google.com/icons
+/** Biome Data (Screen icons) 
+ * (to be updated per the organizer's tastes)
+ * 
+ * see icon list here >> https://fonts.google.com/icons
+*/
 var biomes = [
     {
         name: "Terrace",
