@@ -361,6 +361,19 @@ function RegenerateAreaZones() {
     }
 }
 
+/** Gets the URL to the artist image. */
+function fetchArtistImageUrl(area) {
+    // Get artist image
+    var areaArtistImage = area.artistImageOverride;
+    if (areaArtistImage === '') {
+        areaArtistImage = area.artist;   // Fallback if no artist image is defined
+    }
+    if (areaArtistImage === '') {
+        return '';
+    }
+    return artistImgDir + areaArtistImage + artistImgExtension;
+}
+
 /** Prepares PIXI area tiles and their associated HTML artist information blocks. */
 function setUpAreas () {
     if (!activeAreas) {
@@ -391,21 +404,11 @@ function setUpAreas () {
         }
 
         // Prep artist image HTML
-        var areaArtist = area.artist.replace('@', '');
+        var artistImgPath = fetchArtistImageUrl(area);
         var artistImageHTML = '';
-        if (areaArtist === '') {
-            console.log("Area artist is undefined, skipping artist image.");
-        }
-        else
-        {
-            // Get artist image
-            var areaArtistImage = area.artistImageOverride;
-            if (areaArtistImage === '') {
-                areaArtistImage = areaArtist;   // Fallback if no artist image is defined
-            }
-            var artistImgPath = artistImgDir + areaArtistImage + artistImgExtension;
-        
-            var artistImageHTML = area.url ? `<a href="${area.url}" target="_blank" title="${area.artist}">
+    
+        if (!(artistImgPath === '')) {
+            artistImageHTML = area.url ? `<a href="${area.url}" target="_blank" title="${area.artist}">
                 <img src="${artistImgPath}" alt="${area.artist}" /></a>` : `<img src="${artistImgPath}" alt="${area.artist}" />`;
         }
         
@@ -926,7 +929,9 @@ function openAreaInDOM (a) {
 }
 function updateMobileArtist(area) {
     
-    var areaArtist = area.artist.replace('@', '');
+    var artistImgPath = fetchArtistImageUrl(area);
+
+    var areaArtist = area.artist;
     document.querySelector('.artist_mobile').style.display = areaArtist === '' ? 'none' : isMenuOpen() ? 'none' : '';
 
     var containerName = document.querySelector('.artist_mobile .area__info__name');
@@ -941,14 +946,6 @@ function updateMobileArtist(area) {
                 <img src="${artistImgPath}" alt="${area.artist}" /></a>` : `<img src="${artistImgPath}" alt="${area.artist}" />`}
     `;
     var image = document.querySelector('.artist_mobile .area__info__img img');
-
-    var areaArtistImage = area.artistImageOverride;
-    if (areaArtistImage === '') {
-        areaArtistImage = areaArtist;   // Fallback if no artist image is defined
-    }
-    var artistImgPath = artistImgDir + areaArtistImage + artistImgExtension;
-    image.src = artistImgPath;
-    image.alt = area.artist;
 
     containerImage.style.display = 'none';
     image.onload = function(){
