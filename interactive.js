@@ -439,6 +439,7 @@ function setUpAreas () {
     }
 }
 
+/** Creates a rectangular fill relative to a PIXIjs graphic (effectively its outline) */
 function UpdateFill(graphic, areaBox) {
     graphic.beginFill(0xffffff, 0)
     if (!bordersDisabled) { // Outline properties

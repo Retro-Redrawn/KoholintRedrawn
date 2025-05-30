@@ -13,7 +13,7 @@
 */
 
 // Directories
-var artistImgDir = "img/profiles/";
+var artistImgDir = "https://vulture-boy.github.io/Retro-Redrawn-Data/avatars/";
 var artistImgExtension = '.png';  // Image extension for artist images.
 // (having JavaScript self-determine if an image exists without a particular extension is difficult)
 
