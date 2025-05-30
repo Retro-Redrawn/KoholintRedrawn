@@ -13,23 +13,23 @@
 */
 
 // Core
-var app = null
+var app = null;
 var loading = true; // Whether data is being loaded (e.g. images)
 var layersLoaded = 0;
 
 // Navigation
-var zoomLevel = 1 // must be whole number
+var zoomLevel = 1; // must be whole number
 var zoomMin = 0.25;
 var zoomMax = 4;
-var currentZoom = 1 //lerp
-var zoomCenter = {x: 0, y: 0} // must be whole numbers
-var currentPos = {x: 0, y: 0} //lerp
+var currentZoom = 1; //lerp
+var zoomCenter = {x: 0, y: 0}; // must be whole numbers
+var currentPos = {x: 0, y: 0}; //lerp
 
 // Map
 const NEW_STYLE_NAME = 'new';
 const OLD_STYLE_NAME = 'old';
 const GRID_CELL_IMAGE = 'img/website/grid_test.png';
-var activeAreas = redrawnLayers[activeLayerIndex].areas  // Active array of areas (and initial area)
+var activeAreas = redrawnLayers[activeLayerIndex].areas;  // Active array of areas (and initial area)
 var layerCount = redrawnLayers.length;  // Total number of layers
 var canvasDimensions = redrawnLayers[activeLayerIndex].canvasSize; // Dimension of active canvas
 var map = null;
@@ -44,30 +44,30 @@ var autoHighlight = true;
 var highlightedArea = null;
 
 // Filters
-var blurFilter = null       // Motion blue used when zooming
-var bulgeFilter = null
-var colorFilter = null      // Used for fade-to-black sequences (e.g. in tour mode)
+var blurFilter = null;      // Motion blue used when zooming
+var bulgeFilter = null;
+var colorFilter = null;      // Used for fade-to-black sequences (e.g. in tour mode)
 
 // Interaction
-var mouseDown = false
-var dragging = false
-var dragVelocity = { x: 0, y: 0 }
-var zoomMousePos = { x: 0, y: 0 }
-var previousTouch = null
-var previousPinchDistance = 0
-var pinchForTick = null
+var mouseDown = false;
+var dragging = false;
+var dragVelocity = { x: 0, y: 0 };
+var zoomMousePos = { x: 0, y: 0 };
+var previousTouch = null;
+var previousPinchDistance = 0;
+var pinchForTick = null;
 
 // Tour
-var tourMode = false
-var tourTransition = false
-var areasToTour = []
-var tourFadeTimer = 100
+var tourMode = false;
+var tourTransition = false;
+var areasToTour = [];
+var tourFadeTimer = 100;
 
 // Camera movement
-var _defaultCameraSpeed = 0.008
-var _defaultTourCameraSpeed = 0.002
-var cameraSpeed = _defaultCameraSpeed
-var tourCameraSpeed = _defaultTourCameraSpeed
+var _defaultCameraSpeed = 0.008;
+var _defaultTourCameraSpeed = 0.002;
+var cameraSpeed = _defaultCameraSpeed;
+var tourCameraSpeed = _defaultTourCameraSpeed;
 
 var cameraAnimation = {
     speed: cameraSpeed,
