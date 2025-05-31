@@ -5,6 +5,8 @@
 *   Backend operations of the Redrawn Viewer. 
 *   Uses Implementation script for data related to a particular implementation.
 *
+*   Dependencies: RedrawnArtistDataUtils.js, ArtistData.js (https://vulture-boy.github.io/Retro-Redrawn-Data/)
+*
 *   Authors: Jerky, Tyson Moll (vvvvvvv)
 *
 *   Contributors: dodocommando
@@ -16,11 +18,6 @@
 var app = null;
 var loading = true; // Whether data is being loaded (e.g. images)
 var layersLoaded = 0;
-
-// Directories
-var artistImgDir = "https://vulture-boy.github.io/Retro-Redrawn-Data/avatars/";
-var artistImgExtension = '.png';  // Image extension for artist images.
-// (having JavaScript self-determine if an image exists without a particular extension is difficult)
 
 // Navigation
 var zoomLevel = 1; // must be whole number
@@ -366,19 +363,6 @@ function RegenerateAreaZones() {
     }
 }
 
-/** Gets the URL to the artist image. */
-function fetchArtistImageUrl(area) {
-    // Get artist image
-    var areaArtistImage = area.artistImageOverride;
-    if (areaArtistImage === '') {
-        areaArtistImage = area.artist;   // Fallback if no artist image is defined
-    }
-    if (areaArtistImage === '') {
-        return '';
-    }
-    return artistImgDir + areaArtistImage + artistImgExtension;
-}
-
 /** Prepares PIXI area tiles and their associated HTML artist information blocks. */
 function setUpAreas () {
     if (!activeAreas) {
@@ -409,12 +393,15 @@ function setUpAreas () {
         }
 
         // Prep artist image HTML
-        var artistImgPath = fetchArtistImageUrl(area);
+        var artistData = GetArtistData(area.artistId);
+        var artistName = artistData.name;
+        var artistUrl = artistData.url;
+        var artistImgPath = GetArtistImagePath(artistData);
         var artistImageHTML = '';
     
         if (!(artistImgPath === '')) {
-            artistImageHTML = area.url ? `<a href="${area.url}" target="_blank" title="${area.artist}">
-                <img src="${artistImgPath}" alt="${area.artist}" /></a>` : `<img src="${artistImgPath}" alt="${area.artist}" />`;
+            artistImageHTML = artistUrl ? `<a href="${artistUrl}" target="_blank" title="${artistName}">
+                <img src="${artistImgPath}" alt="${artistName}" /></a>` : `<img src="${artistImgPath}" alt="${artistName}" />`;
         }
         
         // Prepare the HTML block corresponding to an area and its associated credts
@@ -434,7 +421,7 @@ function setUpAreas () {
                         ${artistImageHTML}
                     </div>
                     <div class="area__info__name">
-                        ${area.url ? `<a href="${area.url}" target="_blank" title="${area.artist}">${area.artist}</a>` : `<a>${area.artist}</a>`}
+                        ${artistUrl ? `<a href="${artistUrl}" target="_blank" title="${artistName}">${artistName}</a>` : `<a>${artistName}</a>`}
                         ${area.post_url ? `<a href="${area.post_url}" target="_blank" title="View Post">[View Post]</a>` : ''}
                     </div>
                 </div>
@@ -935,21 +922,22 @@ function openAreaInDOM (a) {
 }
 function updateMobileArtist(area) {
     
-    var artistImgPath = fetchArtistImageUrl(area);
-
-    var areaArtist = area.artist;
+    var artistData = GetArtistData(area.artistId);
+    var artistImgPath = GetArtistImagePath(artistData);
+    var areaArtist = artistData.name;
+    var areaArtistUrl = artistData.url;
     document.querySelector('.artist_mobile').style.display = areaArtist === '' ? 'none' : isMenuOpen() ? 'none' : '';
 
     var containerName = document.querySelector('.artist_mobile .area__info__name');
     containerName.innerHTML = `
-        ${area.url ? `<a href="${area.url}" target="_blank" title="${area.artist}">${area.artist}</a>` : `<a>${area.artist}</a>`}
+        ${areaArtistUrl ? `<a href="${areaArtistUrl}" target="_blank" title="${areaArtist}">${areaArtist}</a>` : `<a>${areaArtist}</a>`}
         ${area.post_url ? `<a href="${area.post_url}" target="_blank" title="View Post">[View Post]</a>` : ''}
     `;
     var containerImage = document.querySelector('.artist_mobile .area__info__img');
     var a = document.querySelector('.artist_mobile .area__info__img');
     a.innerHTML = `
-        ${area.url ? `<a href="${area.url}" target="_blank" title="${area.artist}">
-                <img src="${artistImgPath}" alt="${area.artist}" /></a>` : `<img src="${artistImgPath}" alt="${area.artist}" />`}
+        ${areaArtistUrl ? `<a href="${areaArtistUrl}" target="_blank" title="${areaArtist}">
+                <img src="${artistImgPath}" alt="${areaArtist}" /></a>` : `<img src="${artistImgPath}" alt="${areaArtist}" />`}
     `;
     var image = document.querySelector('.artist_mobile .area__info__img img');
 
