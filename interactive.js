@@ -30,7 +30,6 @@ var currentPos = {x: 0, y: 0}; //lerp
 // Map
 const NEW_STYLE_NAME = 'new';
 const OLD_STYLE_NAME = 'old';
-const GRID_CELL_IMAGE = 'img/website/grid_test.png';
 var activeAreas = redrawnLayers[activeLayerIndex].areas;  // Active array of areas (and initial area)
 var layerCount = redrawnLayers.length;  // Total number of layers
 var canvasDimensions = redrawnLayers[activeLayerIndex].canvasSize; // Dimension of active canvas
@@ -226,7 +225,7 @@ function setupCanvas () {
     mapImages = new PIXI.Container()
     mapImages.name = "Map Images"
     mapZones = new PIXI.Container()
-    mapZones.name = "Map Images" 
+    mapZones.name = "Map Zones" 
     viewport = new PIXI.Container({width: window.innerWidth, height: window.innerHeight})
     viewport.name = "Viewport"
 
@@ -300,6 +299,7 @@ function buildMap () {
     }
 }
 
+/** Switches between Old and New map styles */
 function toggleMapStyle () {
     var lastMapStyle = currentMapStyle;
 
@@ -433,15 +433,12 @@ function setUpAreas () {
 
 /** Creates a rectangular fill relative to a PIXIjs graphic (effectively its outline) */
 function UpdateFill(graphic, areaBox) {
-    graphic.beginFill(0xffffff, 0)
     if (!bordersDisabled) { // Outline properties
+        graphic.beginFill(0xffffff, 0)
         graphic.lineStyle(4, 0xffffff, 0.5, 1, false)
+        graphic.drawRect(areaBox.x, areaBox.y, areaBox.width, areaBox.height);
+        graphic.endFill()
     }
-    else {
-        graphic.lineStyle(4, 0xffffff, 0, 1, false)
-    }
-    graphic.drawRect(areaBox.x, areaBox.y, areaBox.width, areaBox.height);
-    graphic.endFill()
 }
 
 /** Creates PIXI Graphics corresponding to new and old versions of an area. */

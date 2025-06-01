@@ -10,6 +10,9 @@
 *   Created in 2023
 */
 
+// Directories
+const GRID_CELL_IMAGE = 'img/website/grid_test.png'; // Tiled background image (blank if none)
+
 // Audio
 var bgmTrack = null;
 
