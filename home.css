@@ -246,7 +246,7 @@ a{
     font-size: 0.8em;
     line-height: 1.5em;
 }
-#bgmPlayer{
+.bgmPlayer{
     width: 100%;
 }
 .area {
