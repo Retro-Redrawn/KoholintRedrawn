@@ -180,7 +180,7 @@ var castleAreas = [
     order: 11,
     title: "Mr. Write",
     ident: "2-1",
-    artistId: "DON0",
+    artistId: "DONP",
     animation: false,
     point: {
       x: 50,
