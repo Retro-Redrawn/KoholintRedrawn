@@ -10,7 +10,26 @@
 *   Created in 2023
 */
 
-// Directories
+//#region Audio
+
+/**
+ * Information about audio tracks used by the audio player. 
+ * Please set 'player-data-num' in the index.html to the track number you want to play for each player.
+ * @type {Array<{title: string, artist: string, audio: string, audio_intro: string}>}
+ */
+const AUDIO_TRACKS = [
+    {
+        title: 'Mabe Village',
+        artist: 'Tori Roberts',
+        audio: 'audio/mabe_village_v2.mp3',
+        audio_intro: ''
+    }
+];
+
+//#endregion
+
+//#region Background Images
+
 /**
  * File path to tiled background image for the canvas (use empty string if none)
  * @type {string}
@@ -26,8 +45,16 @@ const WINDOW_BACKGROUND_COLOR = 0x000000;
  * @type {string}
  */
 const WINDOW_BACKGROUND_IMAGE = '';
+/**
+ * Whether to apply motion blur to the full viewport or just the map canvas.
+ * @type {boolean}
+ */
+const MOTIONBLUR_VIEWPORT = false;
 
-// File Naming
+//#endregion
+
+//#region Art File Naming
+
 /** 
  * Optional suffix added to new map file names (e.g. '_new' for 'map_name_new.png') 
  * @type {string}
@@ -47,24 +74,30 @@ const OLD_SLICE_SUFFIX = '';
  */
 var activeLayerIndex = 0;
 
+//#endregion
+
+//#region Content 
+
 /** 
  * Content layers in the Redrawn 
  * @type {Array<{name: string, canvasSize:{width: int, height: int}, areas: string}>}
  */
-var redrawnLayers = [
+const redrawnLayers = [
     {
         name: "game", // name of folder containing screens for a layer
         canvasSize: {width: 2655, height: 3400},
-        areas: castleAreas
+        areas: areaData
     }
 ];
 
-/** Biome Data (Screen icons) 
- * (to be updated per the organizer's tastes)
- * 
- * see icon list here >> https://fonts.google.com/icons
-*/
-var biomes = [
+//#endregion
+
+//#region  Biomes
+/** 
+ * Biome Data (Screen icons). 
+ * @type {Array<{name: string, ident: string, iconId: string, color: string}>}
+ */
+const biomes = [
     {
         name: "Terrace",
         ident: "terrace",
@@ -142,9 +175,12 @@ var biomes = [
 
 /** 
  * Directory of image files tied to defined iconIds. 
- * If not defined here, the icon is looked up in the Material Icon library. 
- * Ideal dimensions are 24x24px; image will automatically be resized.
+ * If not defined here, the icon is looked up in the Material Icon library.  
+ * See icon list here >> https://fonts.google.com/icons
+ * Ideally use 1:1 ratio svg files; image will automatically be resized.
  * @type {Array<{iconId: string, path: string}>}
  */
-var iconFiles = [
+const iconFiles = [
 ];
+
+//#endregion
